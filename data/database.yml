@@ -1,6 +1,6 @@
 Databases:
   MyDatabase:
-    - /home/naimah/Documents/github/pyannote_train/New_train/data
+    - /home/naimah/Documents/github/pyannote_train/Pyannote_code/data
 
 Protocols:
   MyDatabase:
@@ -25,4 +25,4 @@ Preprocessors:
     name: pyannote.database.FileFinder         # <-- NEW path
     params:
       paths:
-        MyDatabase: /home/naimah/Documents/github/pyannote_train/New_train/data/audio/{uri}.wav
+        MyDatabase: /home/naimah/Documents/github/pyannote_train/Pyannote_code/data/audio/{uri}.wav
