@@ -18,43 +18,7 @@ ENV/
 *.lst
 *.yaml
 *.uem
-
-# Model weights (common extensions for machine learning models)
-*.pt
-*.pth
-*.bin
-*.h5
-*.ckpt
-*.model
-
-# Environment and sensitive files
-.env
-*.env
-*.secret
-
-# Miscellaneous
-.DS_Store
-*.log
-# Python-specific exclusions
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-ENV/
-*.egg-info/
-.pytest_cache/
-*.ipynb_checkpoints/
-
-# File types specified
-*.wav
-*.txt
-*.rttm
-*.lst
-*.yaml
-*.uem
+*.json
 
 # Model weights (common extensions for machine learning models)
 *.pt
