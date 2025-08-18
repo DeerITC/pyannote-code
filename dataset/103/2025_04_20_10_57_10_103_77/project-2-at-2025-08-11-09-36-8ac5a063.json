@@ -1,0 +1,445 @@
+[
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_10_57_10_103_77\/2025_04_20_10_57_10_103_77_chunk2.wav",
+    "subfolder": "2025_04_20_10_57_10_103_77",
+    "id": 10,
+    "raw_transcription": "هلا سلام عليكم سلام حياك الله",
+    "speaker_label": [
+      {
+        "start": 26.744,
+        "end": 27.419,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 27.73526886792453,
+        "end": 28.533,
+        "channel": 0,
+        "labels": [
+          "Speaker4"
+        ]
+      },
+      {
+        "start": 28.604477987421387,
+        "end": 29.218,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "هلا",
+      " سلام عليكم",
+      "سلام حياك الله"
+    ],
+    "speaker_id": "Speaker3",
+    "annotator": 1,
+    "annotation_id": 551,
+    "created_at": "2025-08-11T09:17:27.721819Z",
+    "updated_at": "2025-08-11T09:19:35.262188Z",
+    "lead_time": 141.90800000000002
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_10_57_10_103_77\/2025_04_20_10_57_10_103_77_chunk11.wav",
+    "subfolder": "2025_04_20_10_57_10_103_77",
+    "id": 11,
+    "raw_transcription": "",
+    "annotator": 1,
+    "annotation_id": 560,
+    "created_at": "2025-08-11T09:28:18.291978Z",
+    "updated_at": "2025-08-11T09:28:18.292002Z",
+    "lead_time": 27.392
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_10_57_10_103_77\/2025_04_20_10_57_10_103_77_chunk5.wav",
+    "subfolder": "2025_04_20_10_57_10_103_77",
+    "id": 12,
+    "raw_transcription": "",
+    "speaker_label": [
+      {
+        "start": 0,
+        "end": 28.01,
+        "channel": 0,
+        "labels": []
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 554,
+    "created_at": "2025-08-11T09:23:06.804648Z",
+    "updated_at": "2025-08-11T09:23:06.804659Z",
+    "lead_time": 37.216
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_10_57_10_103_77\/2025_04_20_10_57_10_103_77_chunk7.wav",
+    "subfolder": "2025_04_20_10_57_10_103_77",
+    "id": 13,
+    "raw_transcription": "",
+    "annotator": 1,
+    "annotation_id": 556,
+    "created_at": "2025-08-11T09:24:36.942200Z",
+    "updated_at": "2025-08-11T09:24:36.942217Z",
+    "lead_time": 29.856
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_10_57_10_103_77\/2025_04_20_10_57_10_103_77_chunk4.wav",
+    "subfolder": "2025_04_20_10_57_10_103_77",
+    "id": 14,
+    "raw_transcription": "",
+    "speaker_label": [
+      {
+        "start": 0,
+        "end": 27.304,
+        "channel": 0,
+        "labels": []
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 553,
+    "created_at": "2025-08-11T09:22:17.750073Z",
+    "updated_at": "2025-08-11T09:22:17.750090Z",
+    "lead_time": 37.024
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_10_57_10_103_77\/2025_04_20_10_57_10_103_77_chunk0.wav",
+    "subfolder": "2025_04_20_10_57_10_103_77",
+    "id": 15,
+    "raw_transcription": "للغة العربية يرجى إدخال رقم رصيدك هو تسعة عشر ريال ثمانون هللا تاريخ انتهاء الوقت المتبقي في البطاقة هو تسعة و تسعون دقيقة",
+    "speaker_label": [
+      {
+        "start": 0.824,
+        "end": 3.71,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 9.852,
+        "end": 13.902000000000001,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 14.037,
+        "end": 14.813,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 14.864,
+        "end": 16.096,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 20.213,
+        "end": 22.407,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 22.694,
+        "end": 23.756999999999998,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 23.858,
+        "end": 24.756778301886794,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 24.905,
+        "end": 25.647000000000002,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      }
+    ],
+    "transcription": [
+      "للغة العربية يرجى إدخال رقم ",
+      "رصيدك هو تسعة عشر ريال ثمانون",
+      "هللا",
+      " تاريخ انتهاء",
+      "الوقت المتبقي في البطاقة هو",
+      "تسعة",
+      "و تسعون",
+      "دقيقة"
+    ],
+    "speaker_id": "Speaker1",
+    "annotator": 1,
+    "annotation_id": 549,
+    "created_at": "2025-08-11T09:09:53.248986Z",
+    "updated_at": "2025-08-11T09:13:56.717389Z",
+    "lead_time": 244.79899999999998
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_10_57_10_103_77\/2025_04_20_10_57_10_103_77_chunk12.wav",
+    "subfolder": "2025_04_20_10_57_10_103_77",
+    "id": 16,
+    "raw_transcription": "",
+    "annotator": 1,
+    "annotation_id": 561,
+    "created_at": "2025-08-11T09:29:56.830425Z",
+    "updated_at": "2025-08-11T09:29:56.830457Z",
+    "lead_time": 70.47
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_10_57_10_103_77\/2025_04_20_10_57_10_103_77_chunk6.wav",
+    "subfolder": "2025_04_20_10_57_10_103_77",
+    "id": 17,
+    "raw_transcription": "",
+    "annotator": 1,
+    "annotation_id": 555,
+    "created_at": "2025-08-11T09:23:52.660020Z",
+    "updated_at": "2025-08-11T09:23:52.660042Z",
+    "lead_time": 39.256
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_10_57_10_103_77\/2025_04_20_10_57_10_103_77_chunk14.wav",
+    "subfolder": "2025_04_20_10_57_10_103_77",
+    "id": 18,
+    "raw_transcription": "اذا ردوا اناديك",
+    "speaker_label": [
+      {
+        "start": 2.225,
+        "end": 3.2880000000000003,
+        "channel": 0,
+        "labels": [
+          "Speaker4"
+        ]
+      }
+    ],
+    "transcription": "اذا ردوا اناديك",
+    "speaker_id": "Speaker4",
+    "annotator": 1,
+    "annotation_id": 563,
+    "created_at": "2025-08-11T09:35:27.697812Z",
+    "updated_at": "2025-08-11T09:35:45.241826Z",
+    "lead_time": 29.212
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_10_57_10_103_77\/2025_04_20_10_57_10_103_77_chunk13.wav",
+    "subfolder": "2025_04_20_10_57_10_103_77",
+    "id": 19,
+    "raw_transcription": "خمس دقائق الحين لهم يارجل",
+    "speaker_label": [
+      {
+        "start": 26.554320754716983,
+        "end": 27.36,
+        "channel": 0,
+        "labels": [
+          "Speaker4"
+        ]
+      },
+      {
+        "start": 2.086788266739755,
+        "end": 3.893580719569944,
+        "channel": 0,
+        "labels": [
+          "Speaker4"
+        ]
+      }
+    ],
+    "transcription": [
+      "يارجل",
+      "خمس دقائق الحين لهم"
+    ],
+    "speaker_id": "Speaker4",
+    "annotator": 1,
+    "annotation_id": 562,
+    "created_at": "2025-08-11T09:32:24.275644Z",
+    "updated_at": "2025-08-11T09:34:09.231759Z",
+    "lead_time": 164.456
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_10_57_10_103_77\/2025_04_20_10_57_10_103_77_chunk8.wav",
+    "subfolder": "2025_04_20_10_57_10_103_77",
+    "id": 20,
+    "raw_transcription": "",
+    "annotator": 1,
+    "annotation_id": 557,
+    "created_at": "2025-08-11T09:25:15.975312Z",
+    "updated_at": "2025-08-11T09:25:15.975338Z",
+    "lead_time": 31.492
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_10_57_10_103_77\/2025_04_20_10_57_10_103_77_chunk9.wav",
+    "subfolder": "2025_04_20_10_57_10_103_77",
+    "id": 21,
+    "raw_transcription": "",
+    "annotator": 1,
+    "annotation_id": 558,
+    "created_at": "2025-08-11T09:26:12.695509Z",
+    "updated_at": "2025-08-11T09:26:12.695528Z",
+    "lead_time": 36.165
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_10_57_10_103_77\/2025_04_20_10_57_10_103_77_chunk1.wav",
+    "subfolder": "2025_04_20_10_57_10_103_77",
+    "id": 22,
+    "raw_transcription": "تسعون دقيقة الإدارة العامة لسجن الملز السلام عليكم ورحمة الله و بركاته الرجاء ادخال التحويلة المطلوبة أو صفر للوص",
+    "speaker_label": [
+      {
+        "start": 0.031,
+        "end": 1.803,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 4.807,
+        "end": 6.916,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 7.456,
+        "end": 10.409,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 10.983,
+        "end": 11.759,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 12.181,
+        "end": 13.885,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 14.392,
+        "end": 15.168,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 15.488,
+        "end": 16.079,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "تسعون دقيقة",
+      "الإدارة العامة لسجن الملز",
+      " السلام عليكم ورحمة الله و بركاته",
+      "الرجاء",
+      "ادخال التحويلة المطلوبة",
+      "أو صفر ",
+      "للوص"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 550,
+    "created_at": "2025-08-11T09:14:51.316002Z",
+    "updated_at": "2025-08-11T09:16:33.728595Z",
+    "lead_time": 119.545
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_10_57_10_103_77\/2025_04_20_10_57_10_103_77_chunk10.wav",
+    "subfolder": "2025_04_20_10_57_10_103_77",
+    "id": 23,
+    "raw_transcription": "",
+    "annotator": 1,
+    "annotation_id": 559,
+    "created_at": "2025-08-11T09:27:43.499222Z",
+    "updated_at": "2025-08-11T09:27:43.499239Z",
+    "lead_time": 29.963
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_10_57_10_103_77\/2025_04_20_10_57_10_103_77_chunk3.wav",
+    "subfolder": "2025_04_20_10_57_10_103_77",
+    "id": 24,
+    "raw_transcription": "هلا السلام عليكم السلام حياك الله أبوي يبي يستفسر عن تاريخ اطلاقي طيب خليك معي",
+    "speaker_label": [
+      {
+        "start": 0.588,
+        "end": 0.9259999999999999,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 1.786,
+        "end": 2.36,
+        "channel": 0,
+        "labels": [
+          "Speaker4"
+        ]
+      },
+      {
+        "start": 2.36,
+        "end": 3.153,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 3.2722452830188677,
+        "end": 5.734,
+        "channel": 0,
+        "labels": [
+          "Speaker4"
+        ]
+      },
+      {
+        "start": 6.14,
+        "end": 6.933,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "هلا",
+      " السلام عليكم",
+      "السلام حياك الله",
+      " أبوي يبي يستفسر عن تاريخ اطلاقي",
+      "طيب خليك معي"
+    ],
+    "speaker_id": "Speaker3",
+    "annotator": 1,
+    "annotation_id": 552,
+    "created_at": "2025-08-11T09:20:11.042332Z",
+    "updated_at": "2025-08-11T09:21:32.697282Z",
+    "lead_time": 107.651
+  }
+]

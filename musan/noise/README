@@ -1,0 +1,9 @@
+This directory contains the noise portion of the corpus.
+It contains 932 recordings with a total time of 6 hours and 7 minutes.
+It captures a wide variety of technical and non-technical noises that 
+cannot be considered speech or music. Some recordings feature an ambient
+environment, e.g., walking through a city.  The ambient sounds usually do
+not feature any intelligible speech.  Technical sounds include DTMF tones,
+various cellphone noises (such as button presses or vibration),
+dialtones and more. Non-technical sounds include thunder, lighting,
+clapping, car horns, animal sounds, and more.

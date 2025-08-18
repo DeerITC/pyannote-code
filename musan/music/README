@@ -1,0 +1,7 @@
+This directory contains the music portion of the corpus. It is divided 
+primarily by data source. The directories "fma-western-art" and 
+"hd-classical-music" contain Western art music (e.g., Baroque, Classical,
+and Romantic). The three remaining directories contain popular Western music 
+genres (e.g., Country, Hip-Hop, Jazz, etc). The total length of the 
+recordings is 42 hours and 31 minutes.  Each directory contains README, 
+ANNOTATIONS, and LICENSE files. 

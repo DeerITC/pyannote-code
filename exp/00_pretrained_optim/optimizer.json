@@ -1,0 +1,11 @@
+{
+  "best_value": 0.5430644412768916,
+  "best_params": {
+    "segmentation>threshold": 0.26647409786247167,
+    "segmentation>min_duration_off": 0.5748625099847565,
+    "clustering>threshold": 0.12365104136746985,
+    "clustering>method": "ward",
+    "clustering>min_cluster_size": 12
+  },
+  "n_trials": 4
+}

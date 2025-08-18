@@ -1,0 +1,11 @@
+{
+  "segmentation": {
+    "threshold": 0.2893844623846176,
+    "min_duration_off": 0.5962735711672611
+  },
+  "clustering": {
+    "threshold": 0.792772920648414,
+    "method": "single",
+    "min_cluster_size": 9
+  }
+}

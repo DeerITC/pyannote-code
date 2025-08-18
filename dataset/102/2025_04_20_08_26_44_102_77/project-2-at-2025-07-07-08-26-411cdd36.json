@@ -1,0 +1,1143 @@
+[
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_08_26_44_102_77\/2025_04_20_08_26_44_102_77_chunk0.wav",
+    "subfolder": "2025_04_20_08_26_44_102_77",
+    "id": 10,
+    "raw_transcription": "للغة العربية اضغط يرجى اد رصيدك هو ثلاثة",
+    "speaker_label": [
+      {
+        "start": 1.706,
+        "end": 3.879,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 13.438,
+        "end": 15.628,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      }
+    ],
+    "transcription": [
+      "للغة العربية اضغط يرجى اد",
+      " رصيدك هو ثلاثة"
+    ],
+    "speaker_id": "Speaker1",
+    "annotator": 1,
+    "annotation_id": 182,
+    "created_at": "2025-07-07T06:33:23.434855Z",
+    "updated_at": "2025-07-07T06:34:25.630935Z",
+    "lead_time": 98.00899999999999
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_08_26_44_102_77\/2025_04_20_08_26_44_102_77_chunk2.wav",
+    "subfolder": "2025_04_20_08_26_44_102_77",
+    "id": 11,
+    "raw_transcription": "صدق صدق متى تصحين ما أعرف شلون طيب اليوم عندك إجازة صح ايوه يمدي نسولف معاك زي الناس طيب اسمعي هاه أبعطيك حسابين  ضيفيهم عندك كم الحساب",
+    "speaker_label": [
+      {
+        "start": 2.572,
+        "end": 4.329774785801714,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 4.576,
+        "end": 5.951,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 6.019,
+        "end": 7.0040000000000004,
+        "channel": 0,
+        "labels": [
+          "Speaker4"
+        ]
+      },
+      {
+        "start": 8.973,
+        "end": 10.501000000000001,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 11.723,
+        "end": 12.402000000000001,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 14.525,
+        "end": 16.274,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 18.311,
+        "end": 19.126,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 19.38,
+        "end": 19.837999999999997,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 21.621,
+        "end": 22.877,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 25.39,
+        "end": 26.358,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 26.952,
+        "end": 29.327,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 0.7543256608082879,
+        "end": 1.9388923682746282,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "صدق صدق متى تصحين",
+      "ما أعرف شلون",
+      "طيب",
+      "اليوم عندك إجازة صح ",
+      "ايوه",
+      "يمدي نسولف معاك زي الناس",
+      " طيب اسمعي",
+      "هاه",
+      "بعطيك حسابين",
+      "ضيفيهم عندك",
+      "كم الحساب",
+      "ههههه"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 184,
+    "created_at": "2025-07-07T06:43:43.310270Z",
+    "updated_at": "2025-07-07T07:03:27.017827Z",
+    "lead_time": 1231.996
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_08_26_44_102_77\/2025_04_20_08_26_44_102_77_chunk3.wav",
+    "subfolder": "2025_04_20_08_26_44_102_77",
+    "id": 12,
+    "raw_transcription": "كم الحساب اثنين تسعة ايوه ثلاثة ستة صفر ثمانية صفر ايوه واحد صفر صفر سبعة سبعة صفر واحد صفر صفر سبعة سبعة صفر ايوه ستة تسعة كيف",
+    "speaker_label": [
+      {
+        "start": 2.000296205630355,
+        "end": 3.693,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 3.998,
+        "end": 6.086,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 7.003,
+        "end": 7.546,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 8.735,
+        "end": 13.03,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 13.947,
+        "end": 14.677,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 16.545,
+        "end": 19.007,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 19.669,
+        "end": 20.993000000000002,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 21.537,
+        "end": 22.861,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 24.149610535564445,
+        "end": 24.856758638379624,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 24.856758638379624,
+        "end": 26.730701110839846,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 28.357141747314753,
+        "end": 28.887,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "كم الحساب",
+      "اثنين تسعة",
+      "ايوه",
+      "ثلاثة ستة صفر ثمانية صفر",
+      "ايوه",
+      "واحد صفر صفر سبعة سبعة صفر",
+      "واحد صفر صفر",
+      " سبعة سبعة صفر",
+      "ايوه",
+      "ستة تسعة",
+      "كيف"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 185,
+    "created_at": "2025-07-07T07:06:26.598201Z",
+    "updated_at": "2025-07-07T07:19:52.044920Z",
+    "lead_time": 755.6340000000001
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_08_26_44_102_77\/2025_04_20_08_26_44_102_77_chunk10.wav",
+    "subfolder": "2025_04_20_08_26_44_102_77",
+    "id": 13,
+    "raw_transcription": "صفر سبعه سبعه صفر تسعه سته سبعه سبعه صفر تسعه سته لا ستة تسعه اخر شي ستة تسعه فطيمه مدري فطيمه فطيمه",
+    "speaker_label": [
+      {
+        "start": 0.008,
+        "end": 0.263,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 1.129,
+        "end": 1.6720000000000002,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 2.385,
+        "end": 4.253,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 5.136,
+        "end": 8.17406364749082,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 8.294,
+        "end": 9.584,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 12.912,
+        "end": 14.423,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 26.06625458996328,
+        "end": 27.999686658506732,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 28.012145654834764,
+        "end": 28.909,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "صفر",
+      "ايوه",
+      " سبعه سبعه صفر تسعه سته",
+      "سبعه سبعه صفر تسعه سته",
+      "لا ستة تسعه",
+      "اخر شي ستة تسعه",
+      "فطيمه مدري فطيمه",
+      "فطيمه"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 192,
+    "created_at": "2025-07-07T08:13:10.931600Z",
+    "updated_at": "2025-07-07T08:17:36.825473Z",
+    "lead_time": 286.00100000000003
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_08_26_44_102_77\/2025_04_20_08_26_44_102_77_chunk11.wav",
+    "subfolder": "2025_04_20_08_26_44_102_77",
+    "id": 14,
+    "raw_transcription": "فطيمه مدري فطيمه مدري فطيمة أمال مدري إيه ايوه اول مره يمر علي الاسم بس يلا دقيقه بضيف الرقم بدق هاه دقيقه",
+    "speaker_label": [
+      {
+        "start": 0.331,
+        "end": 2.182,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 2.233,
+        "end": 3.574,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 4.066,
+        "end": 4.711,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 7.445,
+        "end": 10.297,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 9.465,
+        "end": 12.468947368421054,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 12.521,
+        "end": 12.996,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 13.879,
+        "end": 14.49,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "فطيمه مدري فطيمه مدري",
+      " فطيمة أمال مدري إيه",
+      "ايوه",
+      "اول مره يمر علي الاسم بس يلا",
+      "دقيقه بضيف الرقم",
+      "هاه",
+      "دقيقه"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 193,
+    "created_at": "2025-07-07T08:18:40.867976Z",
+    "updated_at": "2025-07-07T08:23:47.924676Z",
+    "lead_time": 324.45300000000003
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_08_26_44_102_77\/2025_04_20_08_26_44_102_77_chunk6.wav",
+    "subfolder": "2025_04_20_08_26_44_102_77",
+    "id": 15,
+    "raw_transcription": "ايه فكينا منها دحين قاعد ارد عليك ايوه نزيل لا مارد علي انا اقولك صح اليوم الاحد صح دقيقه  احول لها واشوف",
+    "speaker_label": [
+      {
+        "start": 0.467,
+        "end": 2.284,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 2.708,
+        "end": 3.37,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 9.007,
+        "end": 11.571,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 12.912,
+        "end": 13.999,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 17.581,
+        "end": 19.737,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 21.60357894736842,
+        "end": 22.79342105263158,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 24.576,
+        "end": 26.002,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 14.234660365054483,
+        "end": 16.44887089137027,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "ايه فكينا منها دحين",
+      "طيب",
+      "قاعد ارد عليك ايوه نزيل",
+      "لا مارد علي",
+      " صح اليوم الاحد صح",
+      "دقيقه",
+      " احول لها واشوف",
+      " انا اقولك"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 188,
+    "created_at": "2025-07-07T07:37:32.620880Z",
+    "updated_at": "2025-07-07T07:45:32.196740Z",
+    "lead_time": 390.276
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_08_26_44_102_77\/2025_04_20_08_26_44_102_77_chunk4.wav",
+    "subfolder": "2025_04_20_08_26_44_102_77",
+    "id": 16,
+    "raw_transcription": " تسعة كيف ستة تسعة اخر شي سته تسعة اسمه من فطيمه  ما ادري ايش اسمه لحظة فطيمة ما ادري فطيمه ما ادري ايش اسمه امه    طيب هذي حولي عليها خمسين طيب و حسب",
+    "speaker_label": [
+      {
+        "start": 2.64,
+        "end": 3.0980000000000003,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 3.93,
+        "end": 5.390000000000001,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 6.307,
+        "end": 8.361,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 9.357654834761323,
+        "end": 11.911000000000001,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 13.727,
+        "end": 16.359,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 18.684,
+        "end": 19.29602080783354,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 20.042,
+        "end": 21.247,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 22.844,
+        "end": 23.218,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 25.136,
+        "end": 26.002,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 0.8568170302728398,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "كيف",
+      " ستة تسعة اخر شي",
+      "سته تسعة اسمه من",
+      " فطيمه  ما ادري ايش اسمه لحظة",
+      "فطيمة ما ادري فطيمه ما ادري ايش اسمه امه",
+      "طيب",
+      "هذي حولي عليها خمسين",
+      "طيب",
+      "و الحساب",
+      " تسعة"
+    ],
+    "speaker_id": "Speaker3",
+    "annotator": 1,
+    "annotation_id": 186,
+    "created_at": "2025-07-07T07:21:20.703228Z",
+    "updated_at": "2025-07-07T07:29:23.437922Z",
+    "lead_time": 543.2669999999999
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_08_26_44_102_77\/2025_04_20_08_26_44_102_77_chunk5.wav",
+    "subfolder": "2025_04_20_08_26_44_102_77",
+    "id": 17,
+    "raw_transcription": "طيب و الحساب الثاني إنتي مصحصحه معايا أيوا صاحيه قاعده أكتب طيب خلصي من ذا الأول خلصتي احول لها دحين  إيه  فكينا منها دحين",
+    "speaker_label": [
+      {
+        "start": 0,
+        "end": 0.29700000000000004,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 2.199,
+        "end": 3.4379999999999997,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 7.292,
+        "end": 8.684,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 9.177,
+        "end": 10.671,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 11.978,
+        "end": 12.674,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 12.997,
+        "end": 14.304,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 16.239,
+        "end": 16.85,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 18.905,
+        "end": 20.535,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 21.027,
+        "end": 21.417,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 16.869906253511203,
+        "end": 18.358394625604227,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "طيب",
+      "و الحساب الثاني",
+      "إنتي مصحصحه معايا",
+      "أيوا صاحيه قاعده أكتب",
+      "طيب",
+      "خلصي من ذا الأول",
+      "خلصتي",
+      "إيه فكينا منها دحين",
+      "طيب",
+      "احول لها دحين"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 187,
+    "created_at": "2025-07-07T07:30:10.560091Z",
+    "updated_at": "2025-07-07T07:36:14.170429Z",
+    "lead_time": 392.78
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_08_26_44_102_77\/2025_04_20_08_26_44_102_77_chunk1.wav",
+    "subfolder": "2025_04_20_08_26_44_102_77",
+    "id": 18,
+    "raw_transcription": "ألو هلا و الله ألو إيش نايمه و لا فينك و الله نايمه توني صحيت متى تصحين خلاص صحيت اشوف وجهك",
+    "speaker_label": [
+      {
+        "start": 10.908591187270503,
+        "end": 12.266,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 12.657,
+        "end": 14.096162790697674,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 17.852,
+        "end": 20.059,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 20.993,
+        "end": 21.842,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 22.623,
+        "end": 23.642,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 24.74939657282742,
+        "end": 26.171,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 14.070101536875692,
+        "end": 15.072515245566024,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 15.144116224758191,
+        "end": 16.862539725370187,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "ألو",
+      "هلا و الله",
+      "و الله نايمه توني صحيت",
+      "متى تصحين",
+      "خلاص صحيت ",
+      " اشوف وجهك",
+      "ألو",
+      "إيش نايمه و لا فينك"
+    ],
+    "speaker_id": "Speaker3",
+    "annotator": 1,
+    "annotation_id": 183,
+    "created_at": "2025-07-07T06:36:24.365263Z",
+    "updated_at": "2025-07-07T06:42:29.014519Z",
+    "lead_time": 435.726
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_08_26_44_102_77\/2025_04_20_08_26_44_102_77_chunk7.wav",
+    "subfolder": "2025_04_20_08_26_44_102_77",
+    "id": 19,
+    "raw_transcription": "هيا احول و اشوفهم ها احول و اشوفهم  بقى فيك نوم نعم بقى فيك نوم لا مو مره من امس راقدة اضفتيها الحين هذي دقايق",
+    "speaker_label": [
+      {
+        "start": 1.706,
+        "end": 3.2169999999999996,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 4.423,
+        "end": 5,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 6.426,
+        "end": 8.888,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 13.37,
+        "end": 14.184999999999999,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 15.756811505507956,
+        "end": 20.654,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 24.083,
+        "end": 25.593999999999998,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 26.256,
+        "end": 27.648,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 9.825737198977897,
+        "end": 11.986618471927713,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 12.155437321376917,
+        "end": 12.932004028843258,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "هيا احول و اشوفهم",
+      "هاه",
+      "احول و اشوفهم ",
+      " بقى فيك نوم",
+      " لا مو مره من امس راقدة ",
+      "اضفتيها الحين هذي\n\n\n",
+      "دقايق",
+      "بقى فيك نوم",
+      "نعم"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 189,
+    "created_at": "2025-07-07T07:44:21.837900Z",
+    "updated_at": "2025-07-07T07:53:05.638527Z",
+    "lead_time": 535.548
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_08_26_44_102_77\/2025_04_20_08_26_44_102_77_chunk12.wav",
+    "subfolder": "2025_04_20_08_26_44_102_77",
+    "id": 20,
+    "raw_transcription": "هههههاي",
+    "speaker_label": [
+      {
+        "start": 5.526,
+        "end": 7.903,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 9.737,
+        "end": 10.739,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": "هههههاي",
+    "speaker_id": "Speaker3",
+    "annotator": 1,
+    "annotation_id": 194,
+    "created_at": "2025-07-07T08:24:15.746193Z",
+    "updated_at": "2025-07-07T08:25:43.424349Z",
+    "lead_time": 105.369
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_08_26_44_102_77\/2025_04_20_08_26_44_102_77_chunk8.wav",
+    "subfolder": "2025_04_20_08_26_44_102_77",
+    "id": 21,
+    "raw_transcription": "اضفتيها الحين هذي احنا هذي طلبتي طلبات من هذا امس دخلت ااا ما في باقي مغلقة لليوم  ما حد قال لي عليك لليوم لليوم شوية تخشين تلقينها",
+    "speaker_label": [
+      {
+        "start": 0.008,
+        "end": 0.874,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 1.995,
+        "end": 3.387,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 15.407,
+        "end": 16.918,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 17.156,
+        "end": 21.316,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 21.774,
+        "end": 22.470000000000002,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 22.216,
+        "end": 23.048000000000002,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 23.795,
+        "end": 27.964,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "اضفتيها الحين هذي",
+      "دقايق",
+      " طلبتي طلبات من هذا",
+      " امس دخلت ااا ما في باقي مغلقة",
+      "لليوم",
+      "ما حد قال لي عليك",
+      " اليوم لليوم شوية تخشين تلقينها"
+    ],
+    "speaker_id": "Speaker3",
+    "annotator": 1,
+    "annotation_id": 190,
+    "created_at": "2025-07-07T07:53:50.582805Z",
+    "updated_at": "2025-07-07T07:59:23.649657Z",
+    "lead_time": 365.27600000000007
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_20_08_26_44_102_77\/2025_04_20_08_26_44_102_77_chunk9.wav",
+    "subfolder": "2025_04_20_08_26_44_102_77",
+    "id": 22,
+    "raw_transcription": "لا شوي تخشين تلقين كل شي روحي  يوفرون لك روحي المستودع على طول عد لي الرقم اثنين تسعة اها ثلاثة ستة صفر ثمانية صفر ايوه واحد صفر صفر ايوه سبعة سبعة ",
+    "speaker_label": [
+      {
+        "start": 1.859,
+        "end": 6.9669363525091805,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 10.042,
+        "end": 11.196,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 12.029,
+        "end": 16.283873929008568,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 14.032,
+        "end": 14.253,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 16.952,
+        "end": 17.41,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 17.615,
+        "end": 19.432,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 19.992,
+        "end": 20.994,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 22.165,
+        "end": 23.523,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 24.406,
+        "end": 24.965999999999998,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 25.662,
+        "end": 26.358,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "لا شوي تخشين تلقين كل شي روحي  يوفرون لك روحي المستودع على طول",
+      "عد لي الرقم",
+      "اثنين تسعة ثلاثة ستة",
+      "اها",
+      "ايوه",
+      "صفر ثمانية صفر",
+      "ايوه",
+      "واحد صفر صفر ",
+      "ايوه",
+      "سبعة سبعة "
+    ],
+    "speaker_id": "Speaker3",
+    "annotator": 1,
+    "annotation_id": 191,
+    "created_at": "2025-07-07T08:03:10.921908Z",
+    "updated_at": "2025-07-07T08:12:33.063300Z",
+    "lead_time": 700.8740000000001
+  }
+]

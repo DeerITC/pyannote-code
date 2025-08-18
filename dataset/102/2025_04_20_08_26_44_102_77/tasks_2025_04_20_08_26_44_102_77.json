@@ -1,0 +1,4861 @@
+[
+  {
+    "data": {
+      "audio": "http://localhost:8000/2025_04_20_08_26_44_102_77/2025_04_20_08_26_44_102_77_chunk0.wav",
+      "subfolder": "2025_04_20_08_26_44_102_77"
+    },
+    "predictions": [
+      {
+        "model_version": "whisper+pyannote",
+        "result": [
+          {
+            "from_name": "raw_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "للغة العربية يرجى اد رصيدك هو ثلاثة"
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 1.706,
+              "end": 3.879,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 1.706,
+              "end": 3.879,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 13.438,
+              "end": 15.628,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 13.438,
+              "end": 15.628,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 14.694,
+              "end": 15.39,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 14.694,
+              "end": 15.39,
+              "text": [
+                ""
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "audio": "http://localhost:8000/2025_04_20_08_26_44_102_77/2025_04_20_08_26_44_102_77_chunk2.wav",
+      "subfolder": "2025_04_20_08_26_44_102_77"
+    },
+    "predictions": [
+      {
+        "model_version": "whisper+pyannote",
+        "result": [
+          {
+            "from_name": "raw_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "صدق صدق متى تصحين ما أعرف شلون طيب اليوم عندك إجازة صح ايوه يمدي نسولف معاك زي الناس طيب اسمعي هاه أبعطيك حسابين بس اضيفهم عندك كم الحساب"
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 1.248,
+              "end": 1.384,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 1.248,
+              "end": 1.384,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 2.572,
+              "end": 3.217,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 2.572,
+              "end": 3.217,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 3.472,
+              "end": 4.321,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 3.472,
+              "end": 4.321,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 4.576,
+              "end": 5.951,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 4.576,
+              "end": 5.951,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 6.002,
+              "end": 6.019,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 6.002,
+              "end": 6.019,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 6.019,
+              "end": 7.0040000000000004,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 6.019,
+              "end": 7.0040000000000004,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 7.377,
+              "end": 7.851999999999999,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 7.377,
+              "end": 7.851999999999999,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 8.973,
+              "end": 10.501000000000001,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 8.973,
+              "end": 10.501000000000001,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 11.723,
+              "end": 12.402000000000001,
+              "labels": [
+                "Speaker4"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 11.723,
+              "end": 12.402000000000001,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 14.525,
+              "end": 16.274,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 14.525,
+              "end": 16.274,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 18.311,
+              "end": 19.126,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 18.311,
+              "end": 19.126,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 19.38,
+              "end": 19.837999999999997,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 19.38,
+              "end": 19.837999999999997,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 21.621,
+              "end": 22.877,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 21.621,
+              "end": 22.877,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 25.39,
+              "end": 26.358,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 25.39,
+              "end": 26.358,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 26.952,
+              "end": 28.904000000000003,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 26.952,
+              "end": 28.904000000000003,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 28.531,
+              "end": 28.581999999999997,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 28.531,
+              "end": 28.581999999999997,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 28.582,
+              "end": 28.905,
+              "labels": [
+                "Speaker4"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 28.582,
+              "end": 28.905,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 28.905,
+              "end": 29.516000000000002,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 28.905,
+              "end": 29.516000000000002,
+              "text": [
+                ""
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "audio": "http://localhost:8000/2025_04_20_08_26_44_102_77/2025_04_20_08_26_44_102_77_chunk3.wav",
+      "subfolder": "2025_04_20_08_26_44_102_77"
+    },
+    "predictions": [
+      {
+        "model_version": "whisper+pyannote",
+        "result": [
+          {
+            "from_name": "raw_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "كم الحساب اثنين تسعة ايوه ثلاثة ستة صفر ثمانية صفر ايوه واحد صفر صفر سبعة سبعة صفر واحد صفر صفر سبعة سبعة صفر ايوه ستة تسعة كيف"
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.586,
+              "end": 3.693,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.586,
+              "end": 3.693,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 2.606,
+              "end": 3.1999999999999997,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 2.606,
+              "end": 3.1999999999999997,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 3.964,
+              "end": 3.981,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 3.964,
+              "end": 3.981,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 3.998,
+              "end": 6.086,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 3.998,
+              "end": 6.086,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 6.969,
+              "end": 7.003,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 6.969,
+              "end": 7.003,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 7.003,
+              "end": 7.546,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 7.003,
+              "end": 7.546,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 7.75,
+              "end": 7.937,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 7.75,
+              "end": 7.937,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 8.735,
+              "end": 13.03,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 8.735,
+              "end": 13.03,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 13.947,
+              "end": 14.677,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 13.947,
+              "end": 14.677,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 14.134,
+              "end": 14.253,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 14.134,
+              "end": 14.253,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 14.677,
+              "end": 14.711,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 14.677,
+              "end": 14.711,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 14.762,
+              "end": 15.458,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 14.762,
+              "end": 15.458,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 16.545,
+              "end": 19.007,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 16.545,
+              "end": 19.007,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 19.669,
+              "end": 20.993000000000002,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 19.669,
+              "end": 20.993000000000002,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 21.537,
+              "end": 22.861,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 21.537,
+              "end": 22.861,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 24.083,
+              "end": 24.625999999999998,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 24.083,
+              "end": 24.625999999999998,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 24.202,
+              "end": 24.711000000000002,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 24.202,
+              "end": 24.711000000000002,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 24.711,
+              "end": 24.915,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 24.711,
+              "end": 24.915,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 25.085,
+              "end": 26.511,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 25.085,
+              "end": 26.511,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 28.531,
+              "end": 28.564999999999998,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 28.531,
+              "end": 28.564999999999998,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 28.565,
+              "end": 29.006,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 28.565,
+              "end": 29.006,
+              "text": [
+                ""
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "audio": "http://localhost:8000/2025_04_20_08_26_44_102_77/2025_04_20_08_26_44_102_77_chunk10.wav",
+      "subfolder": "2025_04_20_08_26_44_102_77"
+    },
+    "predictions": [
+      {
+        "model_version": "whisper+pyannote",
+        "result": [
+          {
+            "from_name": "raw_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "صفر سبعه سبعه صفر تسعه سته سبعه سبعه صفر تسعه سته لا ستة تسعه اخر شي ستة تسعه فطيمه مدري فطيمه فطيمة"
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.008,
+              "end": 0.263,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.008,
+              "end": 0.263,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 1.129,
+              "end": 1.6720000000000002,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 1.129,
+              "end": 1.6720000000000002,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 2.385,
+              "end": 4.253,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 2.385,
+              "end": 4.253,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 5.136,
+              "end": 6.511,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 5.136,
+              "end": 6.511,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 6.919,
+              "end": 8.04,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 6.919,
+              "end": 8.04,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 8.294,
+              "end": 9.584,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 8.294,
+              "end": 9.584,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 12.912,
+              "end": 14.423,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 12.912,
+              "end": 14.423,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 19.414,
+              "end": 27.292,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 19.414,
+              "end": 27.292,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 26.29,
+              "end": 26.799,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 26.29,
+              "end": 26.799,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 26.986,
+              "end": 29.006,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 26.986,
+              "end": 29.006,
+              "text": [
+                ""
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "audio": "http://localhost:8000/2025_04_20_08_26_44_102_77/2025_04_20_08_26_44_102_77_chunk11.wav",
+      "subfolder": "2025_04_20_08_26_44_102_77"
+    },
+    "predictions": [
+      {
+        "model_version": "whisper+pyannote",
+        "result": [
+          {
+            "from_name": "raw_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "فطيمه مدري فطيمه مدري فطيمة أمال مدري إيه إيه اول مره يمر علي الاسم بس يلا دقيقه بدق هاه دقيقه"
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.331,
+              "end": 2.182,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.331,
+              "end": 2.182,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 2.233,
+              "end": 3.574,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 2.233,
+              "end": 3.574,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 4.066,
+              "end": 4.711,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 4.066,
+              "end": 4.711,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 7.445,
+              "end": 10.297,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 7.445,
+              "end": 10.297,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 9.465,
+              "end": 15.39,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 9.465,
+              "end": 15.39,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 12.521,
+              "end": 12.996,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 12.521,
+              "end": 12.996,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 13.879,
+              "end": 14.49,
+              "labels": [
+                "Speaker4"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 13.879,
+              "end": 14.49,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 21.418,
+              "end": 21.435,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 21.418,
+              "end": 21.435,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 27.003,
+              "end": 27.546,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 27.003,
+              "end": 27.546,
+              "text": [
+                ""
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "audio": "http://localhost:8000/2025_04_20_08_26_44_102_77/2025_04_20_08_26_44_102_77_chunk6.wav",
+      "subfolder": "2025_04_20_08_26_44_102_77"
+    },
+    "predictions": [
+      {
+        "model_version": "whisper+pyannote",
+        "result": [
+          {
+            "from_name": "raw_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "ايه فكينا منها دحين قاعد ارد عليك ايوه نزيل لا مارد علي انااقولك صح اليوم الاحد صح دقيقه"
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.008,
+              "end": 0.17800000000000002,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.008,
+              "end": 0.17800000000000002,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.467,
+              "end": 2.284,
+              "labels": [
+                "Speaker4"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.467,
+              "end": 2.284,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 2.708,
+              "end": 3.37,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 2.708,
+              "end": 3.37,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 5.577,
+              "end": 7.003,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 5.577,
+              "end": 7.003,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 9.007,
+              "end": 11.571,
+              "labels": [
+                "Speaker4"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 9.007,
+              "end": 11.571,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 11.57,
+              "end": 12.606,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 11.57,
+              "end": 12.606,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 12.912,
+              "end": 13.999,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 12.912,
+              "end": 13.999,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 13.998,
+              "end": 14.065999999999999,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 13.998,
+              "end": 14.065999999999999,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 14.066,
+              "end": 14.100000000000001,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 14.066,
+              "end": 14.100000000000001,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 14.1,
+              "end": 14.134,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 14.1,
+              "end": 14.134,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 14.304,
+              "end": 14.779,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 14.304,
+              "end": 14.779,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 14.779,
+              "end": 14.813,
+              "labels": [
+                "Speaker4"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 14.779,
+              "end": 14.813,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 14.813,
+              "end": 15.034,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 14.813,
+              "end": 15.034,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 15.509,
+              "end": 15.543000000000001,
+              "labels": [
+                "Speaker5"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 15.509,
+              "end": 15.543000000000001,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 15.543,
+              "end": 16.000999999999998,
+              "labels": [
+                "Speaker4"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 15.543,
+              "end": 16.000999999999998,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 16.002,
+              "end": 16.358999999999998,
+              "labels": [
+                "Speaker5"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 16.002,
+              "end": 16.358999999999998,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 17.581,
+              "end": 19.737,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 17.581,
+              "end": 19.737,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 21.825,
+              "end": 22.572,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 21.825,
+              "end": 22.572,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 24.576,
+              "end": 26.002,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 24.576,
+              "end": 26.002,
+              "text": [
+                ""
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "audio": "http://localhost:8000/2025_04_20_08_26_44_102_77/2025_04_20_08_26_44_102_77_chunk4.wav",
+      "subfolder": "2025_04_20_08_26_44_102_77"
+    },
+    "predictions": [
+      {
+        "model_version": "whisper+pyannote",
+        "result": [
+          {
+            "from_name": "raw_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "كيف  ستة تسعة اخر شي سته تسعة اسمه من حطي ما ما ادري ايش اسمه لحظة فطيمة ما ادري فطيمه ما ادري ايش اسمه امه طيب هذي حول عليها خمسين طيب و حسب"
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.008,
+              "end": 0.619,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.008,
+              "end": 0.619,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 2.64,
+              "end": 3.0980000000000003,
+              "labels": [
+                "Speaker4"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 2.64,
+              "end": 3.0980000000000003,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 3.93,
+              "end": 5.390000000000001,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 3.93,
+              "end": 5.390000000000001,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 6.307,
+              "end": 8.361,
+              "labels": [
+                "Speaker4"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 6.307,
+              "end": 8.361,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 7.598,
+              "end": 8.158,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 7.598,
+              "end": 8.158,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 8.362,
+              "end": 8.43,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 8.362,
+              "end": 8.43,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 9.499,
+              "end": 9.567,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 9.499,
+              "end": 9.567,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 9.567,
+              "end": 9.618,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 9.567,
+              "end": 9.618,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 9.618,
+              "end": 9.992,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 9.618,
+              "end": 9.992,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 9.992,
+              "end": 11.911000000000001,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 9.992,
+              "end": 11.911000000000001,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 13.727,
+              "end": 16.359,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 13.727,
+              "end": 16.359,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 17.02,
+              "end": 18.548,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 17.02,
+              "end": 18.548,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 18.684,
+              "end": 19.074,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 18.684,
+              "end": 19.074,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 18.718,
+              "end": 19.176,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 18.718,
+              "end": 19.176,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 20.042,
+              "end": 21.247,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 20.042,
+              "end": 21.247,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 20.144,
+              "end": 20.331,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 20.144,
+              "end": 20.331,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 22.844,
+              "end": 23.218,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 22.844,
+              "end": 23.218,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 23.217,
+              "end": 23.557,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 23.217,
+              "end": 23.557,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 25.136,
+              "end": 26.002,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 25.136,
+              "end": 26.002,
+              "text": [
+                ""
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "audio": "http://localhost:8000/2025_04_20_08_26_44_102_77/2025_04_20_08_26_44_102_77_chunk5.wav",
+      "subfolder": "2025_04_20_08_26_44_102_77"
+    },
+    "predictions": [
+      {
+        "model_version": "whisper+pyannote",
+        "result": [
+          {
+            "from_name": "raw_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "طيب و الحساب الثاني إنتي مصحصحه معايا أيوا صاحيه قاعد أكتب طيب خلصوا من ذا الأول خلصت احول لها دحين  إيه  فكينا منها دحين"
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.008,
+              "end": 0.127,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.008,
+              "end": 0.127,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.127,
+              "end": 0.29700000000000004,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.127,
+              "end": 0.29700000000000004,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 2.199,
+              "end": 3.4379999999999997,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 2.199,
+              "end": 3.4379999999999997,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 3.778,
+              "end": 3.982,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 3.778,
+              "end": 3.982,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 7.292,
+              "end": 8.684,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 7.292,
+              "end": 8.684,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 9.177,
+              "end": 10.671,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 9.177,
+              "end": 10.671,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 11.978,
+              "end": 12.674,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 11.978,
+              "end": 12.674,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 12.997,
+              "end": 14.304,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 12.997,
+              "end": 14.304,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 16.222,
+              "end": 17.275000000000002,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 16.222,
+              "end": 17.275000000000002,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 16.239,
+              "end": 16.85,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 16.239,
+              "end": 16.85,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 17.02,
+              "end": 18.022,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 17.02,
+              "end": 18.022,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 18.905,
+              "end": 20.535,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 18.905,
+              "end": 20.535,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 21.027,
+              "end": 21.417,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 21.027,
+              "end": 21.417,
+              "text": [
+                ""
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "audio": "http://localhost:8000/2025_04_20_08_26_44_102_77/2025_04_20_08_26_44_102_77_chunk1.wav",
+      "subfolder": "2025_04_20_08_26_44_102_77"
+    },
+    "predictions": [
+      {
+        "model_version": "whisper+pyannote",
+        "result": [
+          {
+            "from_name": "raw_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "ألو هلا و الله ألو إيش نايم و لا فينك و الله نايمه متى تصحين خلاص صحيت اشوف وجهك"
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 11.553,
+              "end": 12.266,
+              "labels": [
+                "Speaker4"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 11.553,
+              "end": 12.266,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 12.657,
+              "end": 16.817,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 12.657,
+              "end": 16.817,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 14.134,
+              "end": 14.185,
+              "labels": [
+                "Speaker4"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 14.134,
+              "end": 14.185,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 14.185,
+              "end": 14.762,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 14.185,
+              "end": 14.762,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 17.852,
+              "end": 20.059,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 17.852,
+              "end": 20.059,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 17.886,
+              "end": 18.633,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 17.886,
+              "end": 18.633,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 20.789,
+              "end": 20.823,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 20.789,
+              "end": 20.823,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 20.823,
+              "end": 20.993000000000002,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 20.823,
+              "end": 20.993000000000002,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 20.993,
+              "end": 21.842,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 20.993,
+              "end": 21.842,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 22.623,
+              "end": 23.642,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 22.623,
+              "end": 23.642,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 23.642,
+              "end": 23.744,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 23.642,
+              "end": 23.744,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 25.0,
+              "end": 26.171,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 25.0,
+              "end": 26.171,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 27.988,
+              "end": 28.005,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 27.988,
+              "end": 28.005,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 28.99,
+              "end": 29.33,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 28.99,
+              "end": 29.33,
+              "text": [
+                ""
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "audio": "http://localhost:8000/2025_04_20_08_26_44_102_77/2025_04_20_08_26_44_102_77_chunk7.wav",
+      "subfolder": "2025_04_20_08_26_44_102_77"
+    },
+    "predictions": [
+      {
+        "model_version": "whisper+pyannote",
+        "result": [
+          {
+            "from_name": "raw_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "هيا احول و اشوفهم ها احول و اشوفهم  بقى فيك نوم نعم بقى فيك نوم لامو مره من امس راقدة اضفتيها الحين هذي"
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.008,
+              "end": 0.127,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.008,
+              "end": 0.127,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.127,
+              "end": 0.178,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.127,
+              "end": 0.178,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.62,
+              "end": 0.994,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.62,
+              "end": 0.994,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 1.01,
+              "end": 1.078,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 1.01,
+              "end": 1.078,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 1.078,
+              "end": 1.129,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 1.078,
+              "end": 1.129,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 1.129,
+              "end": 1.163,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 1.129,
+              "end": 1.163,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 1.706,
+              "end": 3.2169999999999996,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 1.706,
+              "end": 3.2169999999999996,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 4.423,
+              "end": 5.0,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 4.423,
+              "end": 5.0,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 6.426,
+              "end": 8.888,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 6.426,
+              "end": 8.888,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 7.903,
+              "end": 7.970999999999999,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 7.903,
+              "end": 7.970999999999999,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 8.888,
+              "end": 9.024,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 8.888,
+              "end": 9.024,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 9.024,
+              "end": 9.398,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 9.024,
+              "end": 9.398,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 9.397,
+              "end": 9.499,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 9.397,
+              "end": 9.499,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 9.499,
+              "end": 9.703000000000001,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 9.499,
+              "end": 9.703000000000001,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 9.703,
+              "end": 10.026,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 9.703,
+              "end": 10.026,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 10.025,
+              "end": 11.179,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 10.025,
+              "end": 11.179,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 10.076,
+              "end": 10.653,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 10.076,
+              "end": 10.653,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 10.722,
+              "end": 10.824,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 10.722,
+              "end": 10.824,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 11.18,
+              "end": 11.452,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 11.18,
+              "end": 11.452,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 11.486,
+              "end": 11.995000000000001,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 11.486,
+              "end": 11.995000000000001,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 12.131,
+              "end": 12.81,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 12.131,
+              "end": 12.81,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 13.37,
+              "end": 14.184999999999999,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 13.37,
+              "end": 14.184999999999999,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 15.968,
+              "end": 16.8,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 15.968,
+              "end": 16.8,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 16.969,
+              "end": 17.088,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 16.969,
+              "end": 17.088,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 17.445,
+              "end": 20.654,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 17.445,
+              "end": 20.654,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 21.638,
+              "end": 24.422,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 21.638,
+              "end": 24.422,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 24.083,
+              "end": 25.593999999999998,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 24.083,
+              "end": 25.593999999999998,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 26.256,
+              "end": 27.648,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 26.256,
+              "end": 27.648,
+              "text": [
+                ""
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "audio": "http://localhost:8000/2025_04_20_08_26_44_102_77/2025_04_20_08_26_44_102_77_chunk12.wav",
+      "subfolder": "2025_04_20_08_26_44_102_77"
+    },
+    "predictions": [
+      {
+        "model_version": "whisper+pyannote",
+        "result": [
+          {
+            "from_name": "raw_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "ههههههههههههههاي"
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.501,
+              "end": 0.875,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.501,
+              "end": 0.875,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 1.995,
+              "end": 5.781000000000001,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 1.995,
+              "end": 5.781000000000001,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 5.526,
+              "end": 7.903,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 5.526,
+              "end": 7.903,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 5.798,
+              "end": 5.832,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 5.798,
+              "end": 5.832,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 6.341,
+              "end": 7.139,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 6.341,
+              "end": 7.139,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 7.903,
+              "end": 9.379999999999999,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 7.903,
+              "end": 9.379999999999999,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 9.567,
+              "end": 17.716,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 9.567,
+              "end": 17.716,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 9.737,
+              "end": 10.739,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 9.737,
+              "end": 10.739,
+              "text": [
+                ""
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "audio": "http://localhost:8000/2025_04_20_08_26_44_102_77/2025_04_20_08_26_44_102_77_chunk8.wav",
+      "subfolder": "2025_04_20_08_26_44_102_77"
+    },
+    "predictions": [
+      {
+        "model_version": "whisper+pyannote",
+        "result": [
+          {
+            "from_name": "raw_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "اضفتيها الحين هذي احنا هذي طلبتي طلبت من هذا امس دخلت ااا ما في باقي مغلقة لليوم  ما حد قال لي عليك لليوم لليوم شوية تخشين تلقينها"
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.008,
+              "end": 0.874,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.008,
+              "end": 0.874,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 1.995,
+              "end": 3.387,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 1.995,
+              "end": 3.387,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 7.02,
+              "end": 9.703,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 7.02,
+              "end": 9.703,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 10.127,
+              "end": 10.314,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 10.127,
+              "end": 10.314,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 10.518,
+              "end": 12.725000000000001,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 10.518,
+              "end": 12.725000000000001,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 12.997,
+              "end": 13.065,
+              "labels": [
+                "Speaker3"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 12.997,
+              "end": 13.065,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 15.407,
+              "end": 16.918,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 15.407,
+              "end": 16.918,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 17.156,
+              "end": 21.316,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 17.156,
+              "end": 21.316,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 21.774,
+              "end": 22.470000000000002,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 21.774,
+              "end": 22.470000000000002,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 22.216,
+              "end": 23.048000000000002,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 22.216,
+              "end": 23.048000000000002,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 23.795,
+              "end": 26.494,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 23.795,
+              "end": 26.494,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 26.8,
+              "end": 28.005000000000003,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 26.8,
+              "end": 28.005000000000003,
+              "text": [
+                ""
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "audio": "http://localhost:8000/2025_04_20_08_26_44_102_77/2025_04_20_08_26_44_102_77_chunk9.wav",
+      "subfolder": "2025_04_20_08_26_44_102_77"
+    },
+    "predictions": [
+      {
+        "model_version": "whisper+pyannote",
+        "result": [
+          {
+            "from_name": "raw_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "لا شوي تخشين تلقين كل شي ملاحظة يغفرون لك رح المستودع على طول عد لي الرقم اثنين تسعة ثلاثة ستة صفر ثمانية صفر ايوا واحد صفر صفر سبعة سبعة ايه ايه ايه ايه ايه ايه ايه ايه ايه ايه ايه ايه ايه"
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.008,
+              "end": 0.993,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.008,
+              "end": 0.993,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 1.859,
+              "end": 3.591,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 1.859,
+              "end": 3.591,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 4.389,
+              "end": 6.970000000000001,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 4.389,
+              "end": 6.970000000000001,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 9.635,
+              "end": 9.788,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 9.635,
+              "end": 9.788,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 10.042,
+              "end": 11.196,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 10.042,
+              "end": 11.196,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 12.029,
+              "end": 13.133,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 12.029,
+              "end": 13.133,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 12.759,
+              "end": 14.983,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 12.759,
+              "end": 14.983,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 14.032,
+              "end": 14.253,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 14.032,
+              "end": 14.253,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 15.102,
+              "end": 16.104,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 15.102,
+              "end": 16.104,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 16.952,
+              "end": 17.41,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 16.952,
+              "end": 17.41,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 17.615,
+              "end": 19.432,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 17.615,
+              "end": 19.432,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 18.056,
+              "end": 19.329,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 18.056,
+              "end": 19.329,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 19.992,
+              "end": 20.994,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 19.992,
+              "end": 20.994,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 22.165,
+              "end": 23.523,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 22.165,
+              "end": 23.523,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 24.406,
+              "end": 24.965999999999998,
+              "labels": [
+                "Speaker2"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 24.406,
+              "end": 24.965999999999998,
+              "text": [
+                ""
+              ]
+            }
+          },
+          {
+            "from_name": "speaker_label",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 25.662,
+              "end": 26.358,
+              "labels": [
+                "Speaker1"
+              ]
+            }
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 25.662,
+              "end": 26.358,
+              "text": [
+                ""
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

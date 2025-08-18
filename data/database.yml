@@ -1,0 +1,28 @@
+Databases:
+  MyDatabase:
+    - /home/naimah/Documents/github/pyannote_train/New_train/data
+
+Protocols:
+  MyDatabase:
+    SpeakerDiarization:
+      MyProtocol:
+        scope: file
+        train:
+          uri: lists/train.lst
+          annotation: rttm/train.rttm
+          annotated: uem/train.uem
+        development:
+          uri: lists/dev.lst
+          annotation: rttm/dev.rttm
+          annotated: uem/dev.uem
+        test:
+          uri: lists/test.lst
+          annotation: rttm/test.rttm
+          annotated: uem/test.uem
+
+Preprocessors:
+  audio:
+    name: pyannote.database.FileFinder         # <-- NEW path
+    params:
+      paths:
+        MyDatabase: /home/naimah/Documents/github/pyannote_train/New_train/data/audio/{uri}.wav

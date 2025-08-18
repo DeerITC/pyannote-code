@@ -1,0 +1,13 @@
+{
+  "best_params": {
+    "segmentation": {
+      "threshold": 0.7199481679313464,
+      "min_duration_off": 0.6907748486443797
+    },
+    "clustering": {
+      "threshold": 1.9595918090080748,
+      "method": "median",
+      "min_cluster_size": 12
+    }
+  }
+}

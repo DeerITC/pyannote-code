@@ -1,0 +1,2584 @@
+[
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk10.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 10,
+    "raw_transcription": "مافي احد هاه مافي احد حولتس شي بندر امس لا حولتس شي بندر حولتس ميه",
+    "speaker_label": [
+      {
+        "start": 1.87,
+        "end": 2.815,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 7.726,
+        "end": 8.789,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 9.953,
+        "end": 10.341,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 11.202,
+        "end": 12.113,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 15.792,
+        "end": 17.024,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 20.433,
+        "end": 20.737,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 21.479,
+        "end": 22.627,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 24.213,
+        "end": 24.77,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 26.626,
+        "end": 27.385,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 28.398,
+        "end": 28.752,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "اي",
+      "مافي احد",
+      "هاه",
+      " مافي احد ",
+      "حولتس شي بندر امس",
+      "لا",
+      "حولتس شي بندر",
+      "اا",
+      "حولتس ميه",
+      "اا"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 315,
+    "created_at": "2025-07-20T06:47:27.791822Z",
+    "updated_at": "2025-07-20T06:51:38.515324Z",
+    "lead_time": 210.04199999999997
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk22.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 11,
+    "raw_transcription": "الساعة وحدة قعد يسولف متى وحدة بالليل شيبي مسوي غبي يقولي  جميل ما دق عليس قلت آه لا الساعة وحدة الكباين مقفله قلي إيه وإنتي شخبارتس شعلومتس  ابوي هههه ايه",
+    "speaker_label": [
+      {
+        "start": 0.031,
+        "end": 1.28,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 2.883,
+        "end": 5.684,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 5.785,
+        "end": 6.696,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 7.523,
+        "end": 9.059,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 12.333,
+        "end": 14.257,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 15.37,
+        "end": 16.483999999999998,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 17.986,
+        "end": 21.057000000000002,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 21.644102994011977,
+        "end": 22.154,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 22.07,
+        "end": 24.618000000000002,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 25.411,
+        "end": 26.153000000000002,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 28.938,
+        "end": 28.971999999999998,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 26.286672447926414,
+        "end": 28.654,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "الساعة وحدة قعد يسولف",
+      "متى",
+      " وحدة بالليل",
+      "شيبي",
+      " مسوي غبي يقولي",
+      "جميل ما دق عليس ",
+      "قلت آه لا الساعة وحدة الكباين مقفله",
+      "قلي إيه وإنتي شخبارتس شعلومتس",
+      "ابوي",
+      "هههه ايه"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 327,
+    "created_at": "2025-07-20T08:36:10.040386Z",
+    "updated_at": "2025-07-20T08:41:12.467414Z",
+    "lead_time": 345.30600000000004
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk27.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 12,
+    "raw_transcription": "اسمعي شوي شوي ادق عليس هاه تمام يالله",
+    "speaker_label": [
+      {
+        "start": 0.554,
+        "end": 0.9420000000000001,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 2.326,
+        "end": 4.064,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 7.135,
+        "end": 7.742,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 7.861,
+        "end": 8.433039520958083,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "هاه",
+      "اسمعي شوي شوي ادق عليس هاه",
+      "تمام",
+      "يالله"
+    ],
+    "speaker_id": "Speaker3",
+    "annotator": 1,
+    "annotation_id": 332,
+    "created_at": "2025-07-20T09:07:24.447959Z",
+    "updated_at": "2025-07-20T09:08:58.976047Z",
+    "lead_time": 84.005
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk2.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 13,
+    "raw_transcription": "فضلا ادخل رقم الاتصال ثم علام الوقت المتبقي في البطاقة هو واحد مئة ستة و ثمانون دقيقة",
+    "speaker_label": [
+      {
+        "start": 0.031,
+        "end": 1.8199999999999998,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 2.326,
+        "end": 3.085,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 7.809789940382906,
+        "end": 15.35191688649069,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      }
+    ],
+    "transcription": [
+      "فضلا ادخل رقم الاتصال",
+      "ثم علام الوقت",
+      "الوقت المتبقي في البطاقة هو واحد مئة ستة و ثمانون دقيقة"
+    ],
+    "speaker_id": "Speaker1",
+    "annotator": 1,
+    "annotation_id": 307,
+    "created_at": "2025-07-17T06:27:50.419866Z",
+    "updated_at": "2025-07-17T06:29:03.134307Z",
+    "lead_time": 96.095
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk20.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 14,
+    "raw_transcription": "نرجع انا وياك انا قلت الحين باكل شوي كذا شوي يمكن شوي متى شوي متى قبل ما تيجي نهى من المدرسة نهى إزعاج ما تخلي الواحد يرقد",
+    "speaker_label": [
+      {
+        "start": 2.613,
+        "end": 3.102,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 4.553,
+        "end": 6.173,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 8.419803592814372,
+        "end": 14.071000000000002,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 14.999,
+        "end": 15.64,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 17.092,
+        "end": 17.631999999999998,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 19.000810778443114,
+        "end": 21.968,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 25.478,
+        "end": 25.967000000000002,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 18.547805813616907,
+        "end": 19.071568687868403,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 23.10762377768876,
+        "end": 24.03191120283846,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "اه",
+      "نرجع انا وياك",
+      "انا قلت الحين باكل شوي كذا شوي يمكن شوي",
+      "متى",
+      "شوي",
+      "قبل ما تيجي نهى من المدرسة نهى إزعاج ما تخلي الواحد يرقد\n\n\n",
+      "اها",
+      "متى",
+      "اها"
+    ],
+    "speaker_id": "Speaker3",
+    "annotator": 1,
+    "annotation_id": 325,
+    "created_at": "2025-07-20T08:19:16.390556Z",
+    "updated_at": "2025-07-20T08:24:29.547670Z",
+    "lead_time": 329.881
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk23.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 15,
+    "raw_transcription": "ابوي هههه ايوه متاكدة ههههههه ايوه يمكن يبي شي يمكن دقي خل اشوف لا لا وين يبيني انا هاه يبيني انا وجلسنا نسولف ليين الساعة خمس والله لو تسولفين معه لين الساعة خمسه اليوم الثاني ماهمني افا ماتغارين علي",
+    "speaker_label": [
+      {
+        "start": 0.031,
+        "end": 0.30100000000000005,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 3.76,
+        "end": 4.519,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 9.852,
+        "end": 10.645,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 11.455,
+        "end": 13.784,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 14.56,
+        "end": 16.231,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 17.007,
+        "end": 17.345000000000002,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 18.205,
+        "end": 21.479,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 22.154,
+        "end": 25.782,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 27.031,
+        "end": 28.432,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 0.6796685701838511,
+        "end": 3.1926553965311566,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 5.026456594135947,
+        "end": 7.845076953417385,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "ابوي",
+      "متاكدة",
+      "ايوه",
+      "يمكن يبي شي يمكن دقي خل اشوف ",
+      " لا لا وين يبيني انا",
+      "هاه",
+      "يبيني انا وجلسنا نسولف ليين الساعة خمس",
+      "والله لو تسولفين معه لين الساعة خمسه اليوم الثاني ماهمني ",
+      "افا ماتغارين علي",
+      " هههه ايوه",
+      "ههههههه"
+    ],
+    "speaker_id": "Speaker3",
+    "annotator": 1,
+    "annotation_id": 328,
+    "created_at": "2025-07-20T08:42:33.916775Z",
+    "updated_at": "2025-07-20T08:49:00.180114Z",
+    "lead_time": 368.41499999999996
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk17.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 16,
+    "raw_transcription": "إمم وليه والله لو أعرف ليه قلت ليش صراحة  إيش تفطرين إمم إيش تفطرين",
+    "speaker_label": [
+      {
+        "start": 2.528,
+        "end": 3.1701532934131738,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 3.727,
+        "end": 4.503,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 7.557,
+        "end": 9.633000000000001,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 18.728,
+        "end": 19.707,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 21.428,
+        "end": 21.799,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 22.357,
+        "end": 23.133,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 24.972,
+        "end": 25.259,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "إمم",
+      "وليه",
+      "والله لو أعرف ليه قلت ليش صراحة ",
+      "إيش تفطرين",
+      "إمم",
+      "إيش تفطرين",
+      "ايه"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 322,
+    "created_at": "2025-07-20T07:53:29.697180Z",
+    "updated_at": "2025-07-20T07:56:22.936525Z",
+    "lead_time": 189.469
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk7.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 17,
+    "raw_transcription": "اقول تاكين لا شغل ولا مشغلة",
+    "speaker_label": [
+      {
+        "start": 1.432,
+        "end": 3.271,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 7.895,
+        "end": 8.469,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "اقول تاكين لا شغل ولا مشغلة",
+      "هاه"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 312,
+    "created_at": "2025-07-20T06:31:37.551907Z",
+    "updated_at": "2025-07-20T06:32:08.337909Z",
+    "lead_time": 40.985
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk12.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 18,
+    "raw_transcription": "والله ماحولتس ايه اه حقتك مافيها شطة هاه حقتك مافيها شطة وشفيه هههههه الو وش عندتس انتي ااه والله ماعندي شي توتس صاحية",
+    "speaker_label": [
+      {
+        "start": 0.689,
+        "end": 1.7690000000000001,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 2.765,
+        "end": 3.1870000000000003,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 4.072601197604791,
+        "end": 6.933,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 8.317,
+        "end": 10.106,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 11.753443113772454,
+        "end": 18.46970898203593,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 15.742,
+        "end": 16.755883832335332,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 19.758,
+        "end": 21.698999999999998,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 22.205,
+        "end": 24.956,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 27.065,
+        "end": 28.179000000000002,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 7.83849800177477,
+        "end": 8.32403812153525,
+        "channel": 0,
+        "labels": [
+          "Speaker4"
+        ]
+      },
+      {
+        "start": 10.43960578620591,
+        "end": 11.757500396984351,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "والله ماحولتس",
+      "ايه",
+      "اه حقتك مافيها شطة",
+      " حقتك مافيها شطة",
+      "هههههه الو",
+      "هاه",
+      "وش عندتس انتي",
+      "ااه والله ماعندي شي",
+      " توتس صاحية",
+      "هاه",
+      " وشفيه"
+    ],
+    "speaker_id": "Speaker3",
+    "annotator": 1,
+    "annotation_id": 317,
+    "created_at": "2025-07-20T07:00:45.416818Z",
+    "updated_at": "2025-07-20T07:11:06.743965Z",
+    "lead_time": 431.738
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk21.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 19,
+    "raw_transcription": "اهمم يمكن مدري والله ابوك ههه ابوك دق علي الساعة وحدة ايش ابوك دق علي الساعة وحدة قعد يسولف",
+    "speaker_label": [
+      {
+        "start": 0.031,
+        "end": 2.1694371257485034,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 2.832,
+        "end": 3.186,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 7.996,
+        "end": 9.413,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 15.877,
+        "end": 21.159,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 21.817,
+        "end": 23.13277604790419,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 23.183,
+        "end": 25.665887425149702,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 7.430208702151362,
+        "end": 8.273760797959746,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "اهمم ",
+      "اها",
+      "يمكن مدري والله",
+      " ابوك ههه ابوك دق علي الساعة وحدة",
+      "ايش",
+      "ابوك دق علي الساعة وحدة قعد يسولف",
+      "ايوه"
+    ],
+    "speaker_id": "Speaker3",
+    "annotator": 1,
+    "annotation_id": 326,
+    "created_at": "2025-07-20T08:26:06.657928Z",
+    "updated_at": "2025-07-20T08:34:34.845937Z",
+    "lead_time": 412.55300000000005
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk6.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 20,
+    "raw_transcription": "ادق عليس أمس قبل الساعة سبعة وخمسة وعشرين خمسة وخمسين او ستة وخمسين ايه اه موجودة ايوه ها موجودة من عندكم والله ما عندنا احد تاكيين ها اقول تاكين لا شغل ولا مشغلة",
+    "speaker_label": [
+      {
+        "start": 0.031,
+        "end": 5.499,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 6.494,
+        "end": 7.641,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 8.829958083832334,
+        "end": 10.645999999999999,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 13.16,
+        "end": 13.75217365269461,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 15.737065868263473,
+        "end": 16.585,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 20.078,
+        "end": 20.971999999999998,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 23.842,
+        "end": 24.601,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 25.428,
+        "end": 25.782,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 27.267,
+        "end": 28.971,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 14.284851147314745,
+        "end": 15.357042764081212,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 17.429,
+        "end": 18.526,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "ايه",
+      "اه موجودة",
+      "ايوه",
+      "موجودة",
+      "والله ما عندنا احد ",
+      "تاكيين",
+      "ها",
+      "اقول تاكين لا شغل ولا مشغلة",
+      "ها",
+      "من عندكم"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 311,
+    "created_at": "2025-07-20T06:19:30.893247Z",
+    "updated_at": "2025-07-20T06:31:17.213024Z",
+    "lead_time": 901.2020000000001
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk19.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 21,
+    "raw_transcription": "لزوم بعض الامور قريب ههه أكيد اه شبعد",
+    "speaker_label": [
+      {
+        "start": 0.706,
+        "end": 3.423,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 5.583,
+        "end": 6.072,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 8.57,
+        "end": 8.891,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 23.170675449101797,
+        "end": 23.893,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 27.014,
+        "end": 27.487,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "لزوم بعض الامور قريب",
+      "ههه أكيد",
+      "اه",
+      "شبعد",
+      "اه"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 324,
+    "created_at": "2025-07-20T08:16:26.835998Z",
+    "updated_at": "2025-07-20T08:18:45.220681Z",
+    "lead_time": 144.57299999999998
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk1.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 22,
+    "raw_transcription": "للغة العربية يرجى إدخال رقم رصيدك هو سبعون أربعة ريال أربعون هللا تاريخ انتهاء الصلاحية هو ثمانية يونيو عشرون خمسة وعشرون  فضلا ادخل رقم الاتصال ثم علام",
+    "speaker_label": [
+      {
+        "start": 0.2,
+        "end": 2.782,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 9.587981719057003,
+        "end": 25.577,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      }
+    ],
+    "transcription": [
+      "للغة العربية يرجى إدخال رقم",
+      "رصيدك هو سبعون أربعة ريال أربعون هللا تاريخ انتهاء الصلاحية هو ثمانية يونيو عشرون خمسة وعشرون فضلا ادخل رقم الاتصال ثم علام\n\n\n"
+    ],
+    "speaker_id": "Speaker1",
+    "annotator": 1,
+    "annotation_id": 306,
+    "created_at": "2025-07-17T06:25:38.743555Z",
+    "updated_at": "2025-07-17T06:27:17.372113Z",
+    "lead_time": 825.984
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk8.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 23,
+    "raw_transcription": "هاه من عندكم ؟ ماعندنا شفيك انت توك صاحي",
+    "speaker_label": [
+      {
+        "start": 21.26,
+        "end": 21.699,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 22.762,
+        "end": 23.775,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 25.3220371257485,
+        "end": 27.118,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "هاه",
+      "من عندكم",
+      " ماعندنا شفيك انت توك صاحي"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 313,
+    "created_at": "2025-07-20T06:32:43.261740Z",
+    "updated_at": "2025-07-20T06:33:56.142775Z",
+    "lead_time": 99.171
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk3.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 24,
+    "raw_transcription": "ألو ألو كيف الحال شفيه ذا ألو ألو كيف الحال هلا أبوي هلا بس هلا عمري",
+    "speaker_label": [
+      {
+        "start": 10.527,
+        "end": 14.02,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 15.877,
+        "end": 16.434,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 17.176,
+        "end": 18.627,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 20.062,
+        "end": 22.130609580838325,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 22.424,
+        "end": 24.044,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 24.77,
+        "end": 28.432,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 26.90022076277133,
+        "end": 27.853629146004863,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "ألو",
+      "ألو",
+      "كيف الحال",
+      " شفيه ذا ألو",
+      "ألو كيف الحال",
+      "هلا أبوي هلا عمري"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 308,
+    "created_at": "2025-07-17T06:49:35.252148Z",
+    "updated_at": "2025-07-17T07:34:14.459548Z",
+    "lead_time": 3900.393
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk14.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 25,
+    "raw_transcription": "إيش عندنا محمد حسن أبوتس ايه و آ إيش كنت أقول إمم شفتي إتصال إنتي أمس نايمة هاه إمم زين استغربت  أبوي دق",
+    "speaker_label": [
+      {
+        "start": 0.638,
+        "end": 1.026,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 2.022,
+        "end": 3.271,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 4.503,
+        "end": 5.043,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 5.561585628742515,
+        "end": 6.2909999999999995,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 9.717,
+        "end": 13.502104191616768,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 15.809,
+        "end": 16.265,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 17.53,
+        "end": 19.521,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 20.548275449101794,
+        "end": 21.243,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 23.605,
+        "end": 24.213,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 26.98,
+        "end": 27.52,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 27.183,
+        "end": 28.972,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "إيش",
+      " عندنا محمد حسن",
+      "أبوتس",
+      "ايه",
+      "و آ إيش كنت أقول",
+      "إمم",
+      "شفتي إتصال إنتي أمس نايمة هاه",
+      "إمم",
+      "زين",
+      "استغربت",
+      "أبوي دق"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 319,
+    "created_at": "2025-07-20T07:27:38.463082Z",
+    "updated_at": "2025-07-20T07:40:55.400004Z",
+    "lead_time": 233.00899999999996
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk13.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 26,
+    "raw_transcription": "توتس صاحية لا هاه متى صاحية من الساعة إثنين يمكن أو ثلاثة ومن عندكم عندنا محمد بن حسن ايش عندنا محمد حسن",
+    "speaker_label": [
+      {
+        "start": 1.128,
+        "end": 2.309,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 3.845,
+        "end": 4.216,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 4.672,
+        "end": 5.617,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 6.342,
+        "end": 8.165,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 10.375,
+        "end": 11.927,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 13.987,
+        "end": 14.544,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 15.995,
+        "end": 16.349,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 19.538,
+        "end": 20.5,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 22.762,
+        "end": 24.163,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 26.255,
+        "end": 26.677,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 27.537,
+        "end": 28.651,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "توتس صاحية",
+      " هاه متى",
+      "صاحية من الساعة",
+      "إثنين يمكن أو ثلاثة",
+      "امم",
+      "ايه",
+      "ومن عندكم",
+      "عندنا محمد بن حسن",
+      "ايش",
+      "عندنا محمد حسن"
+    ],
+    "speaker_id": "Speaker3",
+    "annotator": 1,
+    "annotation_id": 318,
+    "created_at": "2025-07-20T07:13:23.200499Z",
+    "updated_at": "2025-07-20T07:26:20.679111Z",
+    "lead_time": 311.12300000000005
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk11.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 27,
+    "raw_transcription": "حولتس ميه مدري والله لا لا مو موجود هاه لا هاه لا وش تقولين انتي اقول لا وش لا ماحول يعني والله ماحولتس",
+    "speaker_label": [
+      {
+        "start": 1.06,
+        "end": 1.8530000000000002,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 2.763789221556886,
+        "end": 3.086,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 5.482,
+        "end": 6.478,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 6.055,
+        "end": 6.359,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 6.781,
+        "end": 10.578,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 13.042,
+        "end": 13.481,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 15.117,
+        "end": 15.471,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 16.58484191616766,
+        "end": 17.497,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 18.87863113772455,
+        "end": 20.805,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 21.243,
+        "end": 22.052999999999997,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 22.66,
+        "end": 23.402,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 24.382,
+        "end": 25.411,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 26.153,
+        "end": 27.131999999999998,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 28.162,
+        "end": 28.499,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "حولتس ميه",
+      "اا",
+      " مدري والله",
+      "لا",
+      " لا مو موجود هاه ",
+      "لا",
+      "هاه",
+      "لا",
+      " وش تقولين انتي",
+      " اقول لا",
+      "وش لا ",
+      "ماحول يعني ",
+      "والله ماحولتس",
+      "ايه"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 316,
+    "created_at": "2025-07-20T06:53:23.942027Z",
+    "updated_at": "2025-07-20T06:59:53.916646Z",
+    "lead_time": 431.52799999999996
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk9.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 28,
+    "raw_transcription": "ماعندنا شفيك انت توك صاحي إمم إيه إمم صح النوم إمم صح النوم صح بدنتس والله امس كنت نايمة والله معليش نمت عادي عادي",
+    "speaker_label": [
+      {
+        "start": 1.297,
+        "end": 3.086,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 5.65,
+        "end": 6.0040000000000004,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 6.005,
+        "end": 6.528,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 7.777,
+        "end": 9.768,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 9.768,
+        "end": 11.169,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 11.793,
+        "end": 12.754999999999999,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 13.362,
+        "end": 14.442,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 18.593,
+        "end": 21.631,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 22.66,
+        "end": 23.791,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 25.85,
+        "end": 26.998,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "ماعندنا شفيك انت توك صاحي",
+      "إمم",
+      "إيه",
+      "إمم صح النوم",
+      "إمم",
+      " صح النوم",
+      "صح بدنتس",
+      "والله امس كنت نايمة والله معليش نمت",
+      "عادي عادي",
+      "ايي"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 314,
+    "created_at": "2025-07-20T06:35:58.803959Z",
+    "updated_at": "2025-07-20T06:47:58.981655Z",
+    "lead_time": 333.87399999999997
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk24.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 29,
+    "raw_transcription": "افا ماتغارين علي توني ما صحصحت توني قايم ترا مفهي مدري وش تقولين اصلا بالله دق عليس صدق هاه لا تخيل صاحي انت توقعت انه دق عليس عادي لا",
+    "speaker_label": [
+      {
+        "start": 0.031,
+        "end": 0.52,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 1.752,
+        "end": 3.153,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 3.406,
+        "end": 6.123,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 9.228,
+        "end": 11.523,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 13.21,
+        "end": 14.341000000000001,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 19.353,
+        "end": 19.69,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 21.648,
+        "end": 23.184,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 23.808,
+        "end": 26.964,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 27.942,
+        "end": 28.516000000000002,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 7.12815933267742,
+        "end": 7.705161727887,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "ني",
+      "افا ماتغارين علي",
+      " توني ما صحصحت توني قايم ترا ",
+      "مفهي مدري وش تقولين اصلا ",
+      "بالله دق عليس صدق",
+      "هاه",
+      " لا تخيل صاحي انت",
+      "توقعت انه دق عليس عادي",
+      "لا",
+      "امم"
+    ],
+    "speaker_id": "Speaker3",
+    "annotator": 1,
+    "annotation_id": 329,
+    "created_at": "2025-07-20T08:49:42.853453Z",
+    "updated_at": "2025-07-20T08:53:49.724510Z",
+    "lead_time": 275.189
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk26.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 30,
+    "raw_transcription": "والله سيده اذا ولده اذا ولده ماسولف معاه خمس ساعات مدري اربع ساعات والله عاد لو انس نازله من الكواكب  حبيبي انا مرام انا ايش انا مرام هاه اسمعي شوي شوي",
+    "speaker_label": [
+      {
+        "start": 0.031,
+        "end": 1.3639999999999999,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 1.111,
+        "end": 3.3049999999999997,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 4.115,
+        "end": 5.549,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 5.785,
+        "end": 9.312000000000001,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 12.974,
+        "end": 14.003,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 17.041,
+        "end": 18.307000000000002,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 27.8525377245509,
+        "end": 28.803,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 8.313691752067156,
+        "end": 11.728658219133022,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 23.663793548474345,
+        "end": 24.250201931707874,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "والله سيده",
+      "اذا ولده ماسولف معاه خمس ساعات مدري اربع ساعات ",
+      "والله عاد لو انس نازله من الكواكب",
+      "حبيبي انا مرام ",
+      " انا ايش انا مرام ",
+      " اسمعي شوي شوي",
+      "ههههه",
+      " هاه"
+    ],
+    "speaker_id": "Speaker3",
+    "annotator": 1,
+    "annotation_id": 331,
+    "created_at": "2025-07-20T09:01:11.323634Z",
+    "updated_at": "2025-07-20T09:06:55.240277Z",
+    "lead_time": 263.634
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk0.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 31,
+    "raw_transcription": "للغة العربية اضغط يرجى إدخال رقم هوية بيانات الإدخال غير صحيحة يرجى إدخال رقم هوية يرجى إدخال كلمة المرور للغة العربية يرجى إدخال رقم",
+    "speaker_label": [
+      {
+        "start": 0.082,
+        "end": 3.913,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 11.337,
+        "end": 15.606,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 19.707,
+        "end": 21.563000000000002,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 24.601,
+        "end": 25.63,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      },
+      {
+        "start": 25.765,
+        "end": 27.098,
+        "channel": 0,
+        "labels": [
+          "Speaker1"
+        ]
+      }
+    ],
+    "transcription": [
+      "للغة العربية اضغط يرجى إدخال رقم هوية",
+      " بيانات الإدخال غير صحيحة يرجى إدخال رقم هوية",
+      "يرجى إدخال كلمة المرور",
+      " للغة العربية",
+      "يرجى إدخال رقم"
+    ],
+    "speaker_id": "Speaker1",
+    "annotator": 1,
+    "annotation_id": 305,
+    "created_at": "2025-07-17T06:11:26.268378Z",
+    "updated_at": "2025-07-17T06:13:01.380931Z",
+    "lead_time": 111.40800000000002
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk18.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 32,
+    "raw_transcription": "إيش تفطرين ايه   وشو ايش صبة هاه صبة إيش إيش صبة صبة صبة لزوم بعض الامور قريب",
+    "speaker_label": [
+      {
+        "start": 0.031,
+        "end": 1.027,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 2.782,
+        "end": 3.1870000000000003,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 4.368,
+        "end": 6.511,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 6.511,
+        "end": 7.979,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 9.616,
+        "end": 11.118,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 12.181,
+        "end": 12.856,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 13.7,
+        "end": 14.053999999999998,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 14.948,
+        "end": 15.64,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 16.703,
+        "end": 17.125,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 21.192,
+        "end": 21.648,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 21.698,
+        "end": 22.981,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 23.622,
+        "end": 24.685,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 25.985,
+        "end": 26.306,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 25.93896904976668,
+        "end": 28.349,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "إيش تفطرين ",
+      "وشو",
+      "ايش صبة",
+      "هاه",
+      "صبة",
+      "هاه",
+      "صبة",
+      "إيش",
+      "إيش",
+      "صبة صبة",
+      "صبة",
+      "هه",
+      "لزوم بعض الامور قريب"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 323,
+    "created_at": "2025-07-20T07:57:23.653978Z",
+    "updated_at": "2025-07-20T08:15:58.643575Z",
+    "lead_time": 1158.488
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk25.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 33,
+    "raw_transcription": "دق عليس عادي لا وين بنته الثانيه أوكي بس مو يسولف معي لين الساعة خمسة بنته الثانيه عادي مافيها شي لا والله ماسولف معه اعطيه احمر \nفيها شي ابوي انتي تدرين انه سيده ماعنده لف ودوران ايه ايه واضح والله سيده اذا ولده اذا ولده ماسولف",
+    "speaker_label": [
+      {
+        "start": 0.031,
+        "end": 1.027,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 2.579,
+        "end": 3.136,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 6.899,
+        "end": 7.911,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 10.038,
+        "end": 13.379000000000001,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 14.122,
+        "end": 15.404,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 15.877,
+        "end": 19.053471856287427,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 20.517,
+        "end": 23.689,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 24.5,
+        "end": 25.496,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 26.103,
+        "end": 27.571,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 27.183,
+        "end": 29.107,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "دق عليس عادي",
+      "لا وين",
+      " بنته الثانيه",
+      "أوكي بس مو يسولف معي لين الساعة خمسة بنته الثانيه",
+      "عادي مافيها شي",
+      "لا والله ماسولف معه اعطيه احمر\n",
+      "فيها شي ابوي انتي تدرين انه سيده ماعنده لف ودوران",
+      "ايه ايه واضح",
+      "والله سيده",
+      "اذا ولده اذا ولده ماسولف"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 330,
+    "created_at": "2025-07-20T08:56:51.457195Z",
+    "updated_at": "2025-07-20T09:00:20.447466Z",
+    "lead_time": 345.159
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk4.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 34,
+    "raw_transcription": "هلا أبوي هلابس هلا عمري كيف الحال الحمد لله يا روح روحي إنت ها الحمد لله يا روح روحي إنت مصحصحه مشاءالله لا ماكنت مصحصة  يوم سمعت صوتك صحصحت هاه يوم سمعت صوتك صحصحت وينس امس متى",
+    "speaker_label": [
+      {
+        "start": 0.031,
+        "end": 3.276179640718563,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 1.853,
+        "end": 2.528,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 3.338,
+        "end": 4.975,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 5.566,
+        "end": 7.861,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 8.705,
+        "end": 10.393,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 10.578,
+        "end": 12.450999999999999,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 13.447,
+        "end": 15.59,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 15.797467065868265,
+        "end": 20.512544910179642,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 20.872,
+        "end": 22.053,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 22.559,
+        "end": 24.263,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 24.415,
+        "end": 27.554,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 26.795,
+        "end": 27.419,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 29.005,
+        "end": 29.511,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      }
+    ],
+    "transcription": [
+      "هلا أبوي هلا عمري",
+      " هلابس",
+      "كيف الحال",
+      "الحمد لله يا روح روحي إنت",
+      "ها",
+      "الحمد لله يا روح روحي إنت",
+      "مصحصحه مشاءالله ",
+      "لا ماكنت مصحصة يوم سمعت صوتك صحصحت ",
+      "هاه",
+      "يوم سمعت صوتك صحصحت",
+      "وينتس امس",
+      "ايه",
+      "متى"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 309,
+    "created_at": "2025-07-17T07:57:57.480322Z",
+    "updated_at": "2025-07-20T06:15:33.518464Z",
+    "lead_time": 3120.965
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk16.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 35,
+    "raw_transcription": "مدري شصار بعد ابو هنود الثاني مارد عليس لا ابن الكلب ليه",
+    "speaker_label": [
+      {
+        "start": 0.031,
+        "end": 0.369,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 1.972,
+        "end": 3.322,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 5.482,
+        "end": 5.769,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 18.188,
+        "end": 20.247,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 22.306,
+        "end": 23.369,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 24.533,
+        "end": 25.505785628742515,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 28.28,
+        "end": 28.787,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 9.791517826870672,
+        "end": 11.618716629265883,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 11.65319207836768,
+        "end": 13.06668549154133,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "هاه",
+      "مدري شصار بعد",
+      "هاه",
+      "ابو هنود الثاني مارد عليس",
+      " لا ابن الكلب ",
+      "ليه",
+      "امم",
+      "ااح"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 321,
+    "created_at": "2025-07-20T07:45:44.134277Z",
+    "updated_at": "2025-07-20T07:53:02.297073Z",
+    "lead_time": 455.86
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk5.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 36,
+    "raw_transcription": "وينس أمس متى أمس وينس متى ها وينس متى وينس أقول له متى تقولي وينس ها ادق عليتس أمس قبل الساعة سبعة وخمسة و",
+    "speaker_label": [
+      {
+        "start": 0,
+        "end": 1.111,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 0.537,
+        "end": 1.161,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 2.6450874251497005,
+        "end": 3.085,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 4.84,
+        "end": 5.909106586826348,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 6.764,
+        "end": 7.1690000000000005,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 10.776262275449103,
+        "end": 11.405000000000001,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 13.244,
+        "end": 13.818,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 15.36671856287425,
+        "end": 16.028,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 16.822,
+        "end": 17.429,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      },
+      {
+        "start": 20.281,
+        "end": 21.766,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 24.146407185628743,
+        "end": 28.771,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "وينس أمس",
+      "ايه",
+      "متى",
+      " أمس وينس",
+      "متى",
+      "ها",
+      "وينس",
+      "متى",
+      "وينس",
+      "أقول له متى تقولي وينس",
+      "ها ادق عليتس أمس قبل الساعة سبعة وخمسة و\n\n\n"
+    ],
+    "speaker_id": "Speaker3",
+    "annotator": 1,
+    "annotation_id": 310,
+    "created_at": "2025-07-20T06:06:47.413735Z",
+    "updated_at": "2025-07-20T06:14:49.393717Z",
+    "lead_time": 507.03999999999996
+  },
+  {
+    "audio": "http:\/\/localhost:8000\/2025_04_10_08_26_51_139_77\/2025_04_10_08_26_51_139_77_chunk15.wav",
+    "subfolder": "2025_04_10_08_26_51_139_77",
+    "id": 37,
+    "raw_transcription": "أبوي دق ذا أبو هند أبو هنود جمعته هو وزوجته مدري أمه مدري شتقربله طولوا طولوا والله وارمي الجوال على جنب وارقد قلت قفلوا ولا جعلك ماقفلت مدري شصار",
+    "speaker_label": [
+      {
+        "start": 1.499,
+        "end": 5.431,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 5.836,
+        "end": 8.722000000000001,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 10.409,
+        "end": 11.675,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 12.839,
+        "end": 15.185,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 17.497,
+        "end": 19.961,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 23.065,
+        "end": 24.263,
+        "channel": 0,
+        "labels": [
+          "Speaker2"
+        ]
+      },
+      {
+        "start": 1.0696001714101095,
+        "end": 1.7920253211107084,
+        "channel": 0,
+        "labels": [
+          "Speaker3"
+        ]
+      }
+    ],
+    "transcription": [
+      "أبوي دق ذا أبو هند أبو هنود",
+      " جمعته هو وزوجته مدري أمه مدري شتقربله",
+      "طولوا طولوا",
+      "والله وارمي الجوال على جنب وارقد",
+      "قلت قفلوا ولا جعلك ماقفلت",
+      "مدري شصار",
+      "استغربت"
+    ],
+    "speaker_id": "Speaker2",
+    "annotator": 1,
+    "annotation_id": 320,
+    "created_at": "2025-07-20T07:41:46.983747Z",
+    "updated_at": "2025-07-20T07:45:13.282213Z",
+    "lead_time": 238.49499999999998
+  }
+]
