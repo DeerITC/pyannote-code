@@ -127,7 +127,7 @@ def _load_segmentation_strict(ckpt: Path) -> Model:
     try:
         obj = torch.load(str(ckpt), map_location="cpu")
         state = obj.get("state_dict", obj)
-        base = Model.from_pretrained("pyannote/segmentation-3.0")
+        base = Model.from_pretrained("pyannote/segmentation")
         missing, unexpected = base.load_state_dict(state, strict=False)
         log.info(
             "[eval] Loaded checkpoint state_dict into base architecture "

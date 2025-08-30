@@ -15,9 +15,9 @@ Session-aware splitting using the last **2** folder(s) of the relative path as t
 sharing the same key are assigned to the same split (to avoid leakage).
 
 ## Counts
-- train: 218
-- dev:   26
-- test:  22
+- train: 495
+- dev:   34
+- test:  53
 
 ## Next steps
 Load `database.yml` with `pyannote.database` and proceed to tuning/training.
