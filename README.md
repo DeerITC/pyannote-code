@@ -212,14 +212,3 @@ exp/
 
 ---
 
-## License
-
-This repo glues together scripts around `pyannote.audio`. Check the upstream project’s license and any pretrained model licenses before redistribution.
-
----
-
-## Acknowledgements
-
-Built with ❤️ on top of [pyannote.audio] and the broader PyTorch ecosystem.
-
-[pyannote.audio]: https://github.com/pyannote/pyannote-audio
