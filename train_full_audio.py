@@ -7,22 +7,58 @@ Stage 1 (training):
 
 Stage 2 (tuning):
     Tune a SpeakerDiarization pipeline on the dev set, reusing the Stage-1
-    fine-tuned segmentation weights.perform a two-step tuning (segmentation-first with oracle
-    clustering, then clustering).
+    fine-tuned segmentation weights. Optionally perform a two-step tuning
+    (segmentation-first with oracle clustering, then clustering).
 
-Environment:
-    export PYANNOTE_DATABASE_CONFIG=data/database.yml
-    export HF_TOKEN=                      
-    export MUSAN_ROOT= /musan    
+Environment (example):
+    export PYANNOTE_DATABASE_CONFIG=/abs/path/to/data/database.yml
+    export HF_TOKEN=...
+    export MUSAN_ROOT=/musan
 
-Example:
-    python train.py \
-        --protocol MyDatabase.SpeakerDiarization.MyProtocol \
-        --output-dir ./exp \
-        --max-epochs 1 \
-        --batch-size 32 \
-        --gpus 1
+Launch examples:
+
+  # Let Lightning spawn 7 processes (1 per GPU)
+  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6 \
+  python train.py \
+    --protocol MyDatabase.SpeakerDiarization.MyProtocol \
+    --output-dir ./exp \
+    --max-epochs 1 \
+    --batch-size 8 \
+    --num-workers 0 \
+    --gpus 7 \
+    --allow-tf32 \
+    --duration 5.0 \
+    --two-step-tuning \
+    --tune-trials 2
+
+  # OR: Use torchrun to launch 7 processes; pass --gpus 1 to the script
+  export MASTER_ADDR=127.0.0.1
+  export MASTER_PORT=$(( (RANDOM%50000) + 10000 ))
+  export NCCL_P2P_DISABLE=1
+  export NCCL_IB_DISABLE=1
+  export NCCL_SOCKET_IFNAME=enp3s0f1np1
+  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6 \
+  torchrun --standalone --nproc_per_node=7 train.py \
+    --protocol MyDatabase.SpeakerDiarization.MyProtocol \
+    --output-dir ./exp \
+    --max-epochs 1 \
+    --batch-size 8 \
+    --num-workers 0 \
+    --gpus 1 \
+    --allow-tf32 \
+    --duration 5.0 \
+    --two-step-tuning \
+    --tune-trials 2
 """
+from __future__ import annotations
+
+# --- numpy edge case workaround on some stacks ---
+import numpy as np
+if not hasattr(np, "NAN"):
+    np.NAN = np.nan
+
+
+
 
 import os
 import json
@@ -30,6 +66,7 @@ import math
 import random
 import argparse
 import logging
+import warnings
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple, Any
@@ -46,18 +83,44 @@ from pyannote.audio.pipelines import SpeakerDiarization
 from pyannote.audio.tasks import Segmentation
 from pyannote.audio import Model
 
+# -----------------------------------------------------------------------------
+# Logging & warnings
+# -----------------------------------------------------------------------------
 log = logging.getLogger("train")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s")
+warnings.filterwarnings("ignore", message=".*delim_whitespace.*deprecated.*")
+warnings.filterwarnings("ignore", message=".*torchaudio._backend.*deprecated.*")
 os.environ.setdefault("TF_CPP_MIN_LOG_LEVEL", "3")
 
 
-# --------------------------------------------------------------------------- #
-# CLI
-# --------------------------------------------------------------------------- #
+# -----------------------------------------------------------------------------
+# Distributed / NCCL config (mirrors your working smoke test)
+# -----------------------------------------------------------------------------
+def _configure_dist_env() -> None:
+    # Key fix for your system: disable P2P (you can try re-enabling later)
+    os.environ.setdefault("NCCL_P2P_DISABLE", "1")
+    # Disable Infiniband; use sockets
+    os.environ.setdefault("NCCL_IB_DISABLE", "1")
+    # Helpful NCCL/Torch robustness flags
+    os.environ.setdefault("TORCH_NCCL_ASYNC_ERROR_HANDLING", "1")
+    os.environ.setdefault("TORCH_NCCL_BLOCKING_WAIT", "1")
+    # Keep NCCL logs lighter unless debugging
+    os.environ.setdefault("NCCL_DEBUG", "WARN")
+    # Avoid rendezvous collisions
+    os.environ.setdefault("MASTER_ADDR", "127.0.0.1")
+    if "MASTER_PORT" not in os.environ:
+        os.environ["MASTER_PORT"] = str(random.randint(10000, 60000))
+    # Pin to your NIC if not already pinned
+    os.environ.setdefault("NCCL_SOCKET_IFNAME", "enp3s0f1np1")
+    # Unbuffered stdout helps in multi-proc logs
+    os.environ.setdefault("PYTHONUNBUFFERED", "1")
 
+
+# -----------------------------------------------------------------------------
+# CLI
+# -----------------------------------------------------------------------------
 @dataclass
 class Args:
-    """Container for CLI arguments."""
     protocol: str
     output_dir: Path
     seed: int
@@ -84,11 +147,6 @@ class Args:
 
 
 def parse_args() -> Args:
-    """Parse command-line arguments.
-
-    Returns:
-        Args: Parsed arguments as a dataclass.
-    """
     p = argparse.ArgumentParser("Two-stage diarization (seg fine-tune -> pipeline tune)")
     p.add_argument("--protocol", required=True, help="e.g., MyDatabase.SpeakerDiarization.MyProtocol")
     p.add_argument("--output-dir", type=Path, default=Path("./exp"))
@@ -97,8 +155,8 @@ def parse_args() -> Args:
     p.add_argument("--max-epochs", type=int, default=20)
     p.add_argument("--batch-size", type=int, default=16)
     p.add_argument("--num-workers", type=int, default=6)
-    p.add_argument("--duration", type=float, default=2.0)
-    p.add_argument("--max-speakers-per-chunk", type=int, default=3)
+    p.add_argument("--duration", type=float, default=10.0)
+    p.add_argument("--max-speakers-per-chunk", type=int, default=6)
     p.add_argument("--lr", type=float, default=1e-3)
 
     p.add_argument("--gpus", type=int, default=1, help="0 -> CPU")
@@ -107,6 +165,8 @@ def parse_args() -> Args:
 
     p.add_argument("--tune-trials", type=int, default=15, help="Optuna trials (per phase if two-step)")
     p.add_argument("--dev-max", type=int, default=None, help="Cap number of dev files during tuning")
+
+    
 
     p.add_argument("--no-augment", action="store_true")
     p.add_argument("--musan-root", type=Path, default=None)
@@ -154,20 +214,10 @@ def parse_args() -> Args:
     )
 
 
-# --------------------------------------------------------------------------- #
+# -----------------------------------------------------------------------------
 # Helpers & preprocessors
-# --------------------------------------------------------------------------- #
-
+# -----------------------------------------------------------------------------
 def db_cfg_path_from_env() -> Path:
-    """Resolve and validate the database config path from the environment.
-
-    Returns:
-        Path: Absolute path to the database.yml.
-
-    Raises:
-        RuntimeError: If the environment variable is not set.
-        FileNotFoundError: If the file does not exist.
-    """
     env = os.environ.get("PYANNOTE_DATABASE_CONFIG")
     if not env:
         raise RuntimeError("Please export PYANNOTE_DATABASE_CONFIG=/abs/path/to/data/database.yml")
@@ -178,41 +228,15 @@ def db_cfg_path_from_env() -> Path:
 
 
 class UriToAudioPath:
-    """Minimal preprocessor: resolves file['uri'] to an audio file path.
-
-    Example:
-        Given pattern ``/root/audio/{uri}.wav`` and file ``{'uri': 'x'}``,
-        returns ``/root/audio/x.wav``.
-
-    Args:
-        pattern: Format string with ``{uri}`` placeholder.
-    """
-
+    """Minimal preprocessor: resolves file['uri'] to an audio file path."""
     def __init__(self, pattern: str):
         self.pattern = pattern
 
     def __call__(self, file) -> str:
-        """Return the resolved audio path.
-
-        Args:
-            file: Protocol item containing a ``'uri'`` field.
-
-        Returns:
-            str: Resolved absolute/relative audio file path.
-        """
         return self.pattern.format(uri=file["uri"])
 
 
 def build_dev_files_with_audio(proto, limit: Optional[int] = None) -> List[Dict]:
-    """Collect dev files with audio paths for pipeline tuning.
-
-    Args:
-        proto: Pyannote protocol object.
-        limit: Optional cap on number of files.
-
-    Returns:
-        list[dict]: Items with keys: 'uri', 'annotation', optional 'annotated', and 'audio'.
-    """
     files: List[Dict] = []
     for f in proto.development():
         d = {"uri": f["uri"], "annotation": f["annotation"]}
@@ -225,44 +249,16 @@ def build_dev_files_with_audio(proto, limit: Optional[int] = None) -> List[Dict]
     return files
 
 
-# --------------------------------------------------------------------------- #
+# -----------------------------------------------------------------------------
 # MUSAN augmentation
-# --------------------------------------------------------------------------- #
-
+# -----------------------------------------------------------------------------
 def _list_audio_files(root: Path) -> List[Path]:
-    """List audio files recursively under a directory.
-
-    Args:
-        root: Directory to search.
-
-    Returns:
-        list[Path]: Paths with known audio extensions.
-    """
     exts = (".wav", ".flac", ".mp3", ".ogg")
     return [p for p in root.rglob("*") if p.suffix.lower() in exts]
 
 
 class MusanAugment:
-    """Lightweight MUSAN background mixer (noise/music/babble).
-
-    Supports both augmentation call styles used by pyannote:
-      1) Dict batch:
-         ``{"waveform": (B,1,T) or (B,T), "sample_rate": int, "targets": <optional>}``
-         → returns dict.
-      2) Kwargs style:
-         ``samples=<Tensor>, sample_rate=<int>, targets=<Tensor>``
-         → returns an object with ``.samples`` and ``.targets``.
-
-    Args:
-        musan_root: Path to MUSAN root containing 'noise', 'music', 'speech'.
-        p_noise: Probability weight for 'noise'.
-        p_music: Probability weight for 'music'.
-        p_babble: Probability weight for 'speech' (babble).
-        snr_noise: SNR range (dB) for 'noise'.
-        snr_music: SNR range (dB) for 'music'.
-        snr_babble: SNR range (dB) for 'babble'.
-    """
-
+    """Lightweight MUSAN background mixer (noise/music/babble)."""
     def __init__(
         self,
         musan_root: Path,
@@ -280,62 +276,27 @@ class MusanAugment:
         self.snr_music = snr_music
         self.snr_babble = snr_babble
 
-        # Train/eval mode flag (pyannote toggles augmentation in val/test).
-        self._train = True
+        self._train = True  # pyannote toggles augmentation in val/test
 
-        # Build background pools if folders exist.
         self.noise = _list_audio_files(musan_root / "noise") if (musan_root / "noise").is_dir() else []
         self.music = _list_audio_files(musan_root / "music") if (musan_root / "music").is_dir() else []
         self.speech = _list_audio_files(musan_root / "speech") if (musan_root / "speech").is_dir() else []
 
-        n_total = len(self.noise) + len(self.music) + len(self.speech)
-        if n_total == 0:
+        if len(self.noise) + len(self.music) + len(self.speech) == 0:
             log.warning("MUSAN root provided but found no audio under noise/music/speech.")
 
     def train(self, mode: bool = True):
-        """Set training mode (enabled augmentation).
-
-        Args:
-            mode: True for train, False for eval.
-
-        Returns:
-            MusanAugment: Self.
-        """
         self._train = bool(mode)
         return self
 
     def eval(self):
-        """Set eval mode (disable augmentation).
-
-        Returns:
-            MusanAugment: Self.
-        """
         return self.train(False)
 
     @staticmethod
     def _rms(x: torch.Tensor) -> torch.Tensor:
-        """Compute RMS along the last dimension.
-
-        Args:
-            x: Tensor of shape (..., T).
-
-        Returns:
-            torch.Tensor: RMS with shape (..., 1).
-        """
         return torch.sqrt(torch.clamp((x ** 2).mean(dim=-1, keepdim=True), min=1e-12))
 
     def _load_random_segment(self, files: List[Path], target_len: int, sr: int, device) -> Optional[torch.Tensor]:
-        """Load a random mono segment from a pool and match length/sample rate.
-
-        Args:
-            files: Candidate audio files.
-            target_len: Desired number of samples.
-            sr: Desired sample rate.
-            device: Torch device to place the tensor on.
-
-        Returns:
-            Optional[torch.Tensor]: Tensor of shape (1, T) or None.
-        """
         if not files:
             return None
         path = random.choice(files)
@@ -357,16 +318,6 @@ class MusanAugment:
         return wav
 
     def _mix(self, clean: torch.Tensor, noise: torch.Tensor, snr_db: float) -> torch.Tensor:
-        """Mix noise into clean at a target SNR.
-
-        Args:
-            clean: Clean tensor of shape (B, 1, T).
-            noise: Noise tensor of shape (B, 1, T) or (1, T).
-            snr_db: Target SNR in dB.
-
-        Returns:
-            torch.Tensor: Mixed audio, clamped to [-1, 1].
-        """
         if noise.dim() == 2:
             noise = noise.unsqueeze(0)  # (1,1,T)
         if noise.shape[1] != 1:
@@ -379,16 +330,6 @@ class MusanAugment:
         return torch.clamp(clean + a * noise, -1.0, 1.0)
 
     def __call__(self, *args: Any, **kwargs: Any):
-        """Apply augmentation if in training mode.
-
-        Supports:
-            - Dict batch: returns dict with possibly modified 'waveform'.
-            - Kwargs style: returns SimpleNamespace with `.samples` and `.targets`.
-
-        Returns:
-            Union[dict, SimpleNamespace]: Augmented batch.
-        """
-        # Disabled in eval/validation.
         if not self._train:
             if "samples" in kwargs:
                 return SimpleNamespace(
@@ -403,17 +344,16 @@ class MusanAugment:
         # Kwargs path
         if "samples" in kwargs:
             samples = kwargs["samples"]
-            targets = kwargs.get("targets", None)  # passthrough unchanged
+            targets = kwargs.get("targets", None)
             sr = int(kwargs.get("sample_rate", 16000))
 
             x = samples
             orig_dims = x.dim()
-            if x.dim() == 2:  # (B,T) -> (B,1,T)
+            if x.dim() == 2:
                 x = x.unsqueeze(1)
             elif x.dim() != 3:
                 return SimpleNamespace(samples=samples, targets=targets, sample_rate=sr)
 
-            # Ensure mono.
             if x.shape[1] != 1:
                 x = x.mean(dim=1, keepdim=True)
 
@@ -421,7 +361,6 @@ class MusanAugment:
             device = x.device
             x_out = x.clone()
 
-            # Category pools & probabilities.
             cats, probs, pools, snr_ranges = [], [], [], []
             if self.noise and self.p_noise > 0:
                 cats.append("noise"); probs.append(self.p_noise); pools.append(self.noise); snr_ranges.append(self.snr_noise)
@@ -499,16 +438,22 @@ class MusanAugment:
                         x_out[b:b+1] = self._mix(x_out[b:b+1], seg.unsqueeze(0), snr_db=snr)
 
             batch["waveform"] = x_out
-            # Leave any supervision/labels untouched in dict mode.
             return batch
 
-        # Fallback.
         return args[0] if args else kwargs
 
 
-# --------------------------------------------------------------------------- #
+# -----------------------------------------------------------------------------
 # Stage 1 — segmentation fine-tuning
-# --------------------------------------------------------------------------- #
+# -----------------------------------------------------------------------------
+def _map_precision(p: str) -> str:
+    """Map simple flags to PL precision strings."""
+    if p == "16":
+        return "16-mixed"
+    if p.lower() in {"bf16", "bfloat16"}:
+        return "bf16-mixed"
+    return "32-true"
+
 
 def finetune_segmentation(
     protocol_name: str,
@@ -532,39 +477,12 @@ def finetune_segmentation(
     p_babble: float,
     cfg_path: Path,
 ) -> Path:
-    """Fine-tune the segmentation model on the training protocol.
-
-    Args:
-        protocol_name: Protocol name (e.g., 'MyDatabase.SpeakerDiarization.MyProtocol').
-        outdir: Output directory for checkpoints.
-        max_epochs: Maximum training epochs.
-        batch_size: Batch size.
-        num_workers: DataLoader workers.
-        duration: Chunk duration (seconds).
-        max_speakers_per_chunk: Max speakers per chunk.
-        lr: Learning rate.
-        gpus: Number of GPUs (0 -> CPU).
-        precision: Numerical precision ('32', '16', 'bf16').
-        allow_tf32: Enable TF32 matmul (Ampere+).
-        no_augment: Disable augmentation if True.
-        musan_root: MUSAN root path (optional).
-        snr_noise: SNR range for noise.
-        snr_music: SNR range for music.
-        snr_babble: SNR range for babble.
-        p_noise: Probability weight for noise category.
-        p_music: Probability weight for music category.
-        p_babble: Probability weight for babble category.
-        cfg_path: Path to database.yml.
-
-    Returns:
-        Path: Best checkpoint path if available, otherwise last or outdir.
-    """
     # Resolve WAVs via preprocessor.
     audio_pat = str(cfg_path.parent / "audio" / "{uri}.wav")
     pre = {"audio": UriToAudioPath(audio_pat)}
     protocol = registry.get_protocol(protocol_name, preprocessors=pre)
 
-    # Configure augmentation (if enabled).
+    # Augmentation
     augmentation = None
     if not no_augment:
         musan_dir = musan_root if musan_root else Path(os.environ["MUSAN_ROOT"]) if "MUSAN_ROOT" in os.environ else None
@@ -588,7 +506,7 @@ def finetune_segmentation(
     )
 
     # Load base segmentation and fine-tune.
-    model = Model.from_pretrained("pyannote/segmentation")
+    model = Model.from_pretrained("pyannote/segmentation-3.0")
     if hasattr(model, "learning_rate"):
         model.learning_rate = lr
     model.task = task
@@ -599,10 +517,10 @@ def finetune_segmentation(
         filename="{epoch:02d}-{DiarizationErrorRate:.3f}",
         monitor="DiarizationErrorRate",
         mode="min",
-        save_top_k=5,
+        save_top_k=-1,
         save_last=True,
     )
-    early_cb = EarlyStopping(monitor="DiarizationErrorRate", mode="min", patience=5, verbose=True)
+    early_cb = EarlyStopping(monitor="DiarizationErrorRate", mode="min", patience=15, verbose=True)
     bar_cb = RichProgressBar()
 
     if allow_tf32:
@@ -618,12 +536,13 @@ def finetune_segmentation(
         max_epochs=max_epochs,
         accelerator=accelerator,
         devices=devices,
+        strategy="ddp" if accelerator == "gpu" else "auto",
         callbacks=[checkpoint_cb, early_cb, bar_cb],
         gradient_clip_val=1.0,
         log_every_n_steps=10,
         enable_checkpointing=True,
         default_root_dir=str(outdir),
-        precision=precision,  # keep '32' to avoid AMP edge cases
+        precision=_map_precision(precision),
     )
 
     log.info("Starting segmentation fine-tuning …")
@@ -638,29 +557,10 @@ def finetune_segmentation(
     return last if last.exists() else outdir
 
 
-# --------------------------------------------------------------------------- #
+# -----------------------------------------------------------------------------
 # Stage 2 — pipeline tuning (using fine-tuned segmentation)
-# --------------------------------------------------------------------------- #
-
+# -----------------------------------------------------------------------------
 def _load_segmentation_from_ckpt(ckpt: Path) -> Model:
-    """Load a segmentation model strictly from a fine-tuned checkpoint.
-
-    Tries a direct `from_pretrained(ckpt)` first. If that fails, attempts to
-    read a Lightning `state_dict` from the checkpoint and load it into the
-    base 'pyannote/segmentation' architecture. If both strategies fail,
-    raises an error. No fallback to unmodified base weights.
-
-    Args:
-        ckpt: Path to the fine-tuned checkpoint.
-
-    Returns:
-        Model: Segmentation model carrying weights from the checkpoint.
-
-    Raises:
-        ValueError: If `ckpt` is None.
-        FileNotFoundError: If `ckpt` does not exist.
-        RuntimeError: If loading fails via both strategies.
-    """
     if ckpt is None:
         raise ValueError("segmentation_ckpt is None; expected a path to a fine-tuned checkpoint.")
     ckpt = Path(ckpt)
@@ -675,11 +575,11 @@ def _load_segmentation_from_ckpt(ckpt: Path) -> Model:
     except Exception as e1:
         log.warning(f"[tuning] Direct load failed ({e1}). Trying state_dict path…")
 
-    # Strategy B: load state_dict into base architecture (still using ckpt weights)
+    # Strategy B: load state_dict into base architecture
     try:
         obj = torch.load(str(ckpt), map_location="cpu")
         state = obj.get("state_dict", obj)
-        base = Model.from_pretrained("pyannote/segmentation")
+        base = Model.from_pretrained("pyannote/segmentation-3.0")
         missing, unexpected = base.load_state_dict(state, strict=False)
         log.info(
             "[tuning] Loaded checkpoint state_dict into base architecture "
@@ -693,7 +593,6 @@ def _load_segmentation_from_ckpt(ckpt: Path) -> Model:
         ) from e2
 
 
-
 def optimize_pipeline(
     protocol_name: str,
     outdir: Path,
@@ -703,23 +602,6 @@ def optimize_pipeline(
     segmentation_ckpt: Optional[Path],
     two_step: bool,
 ) -> Dict:
-    """Tune SpeakerDiarization hyperparameters on the dev set.
-
-    Uses the fine-tuned segmentation model from Stage 1. Tries a two-step
-    approach (segmentation-first with oracle clustering, then clustering)
-
-    Args:
-        protocol_name: Protocol name for dev split.
-        outdir: Output directory for tuning artifacts.
-        cfg_path: Path to database.yml.
-        tune_trials: Number of Optuna trials (per phase if two-step).
-        dev_max: Optional cap on number of dev files.
-        segmentation_ckpt: Stage-1 checkpoint path to load into the pipeline.
-        two_step: Whether to attempt two-step tuning.
-
-    Returns:
-        dict: Best parameter set discovered by tuning.
-    """
     outdir.mkdir(parents=True, exist_ok=True)
 
     # Build dev file list with audio paths.
@@ -730,7 +612,7 @@ def optimize_pipeline(
     log.info("[tuning] dev files: %d", len(dev_files))
 
     # Load fine-tuned segmentation for the pipeline.
-    seg_model = _load_segmentation_from_ckpt(segmentation_ckpt) if segmentation_ckpt else Model.from_pretrained("pyannote/segmentation")
+    seg_model = _load_segmentation_from_ckpt(segmentation_ckpt) if segmentation_ckpt else Model.from_pretrained("pyannote/segmentation-3.0")
 
     # Attempt two-step tuning if requested & supported.
     if two_step:
@@ -787,7 +669,7 @@ def optimize_pipeline(
         except Exception as e:
             log.warning(f"[tuning] Two-step tuning unavailable or failed ({e}). Falling back to single-pass.")
 
-    # Single-pass tuning (still uses fine-tuned segmentation).
+    # Single-pass tuning
     pipeline = SpeakerDiarization(segmentation=seg_model)
     opt = Optimizer(pipeline)
     try:
@@ -810,17 +692,13 @@ def optimize_pipeline(
     return best_params
 
 
-# --------------------------------------------------------------------------- #
+# -----------------------------------------------------------------------------
 # Main
-# --------------------------------------------------------------------------- #
-
+# -----------------------------------------------------------------------------
 def main() -> int:
-    """Entry point.
-
-    Returns:
-        int: Zero on success.
-    """
+    _configure_dist_env()  # ensure NCCL/distributed defaults match smoke test
     args = parse_args()
+
     seed_everything(args.seed, workers=True)
     log.info(f"Seed={args.seed} | Torch {torch.__version__} | CUDA available: {torch.cuda.is_available()}")
     if torch.cuda.is_available():
