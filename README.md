@@ -5,7 +5,7 @@ Two-stage **speaker diarization** workflow built on [pyannote.audio], with:
 1) **Stage 1 – Segmentation fine-tuning** (with MUSAN augmentation)  
 2) **Stage 2 – Pipeline tuning** on a dev split (single-pass or two-step)
 
-Utilities are included to **prepare a call-level dataset** from chunked audio/RTTM folders and to **evaluate** a tuned pipeline.
+Utilities are included to **prepare a a full audio dataset** from chunked audio/RTTM folders and to **evaluate** a tuned pipeline.
 
 ---
 
